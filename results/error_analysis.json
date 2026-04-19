@@ -1,0 +1,2232 @@
+{
+  "qwen05|zs_en": {
+    "total_errors": 295,
+    "total_n": 498,
+    "error_rate": 0.5923694779116466,
+    "bucket_errors": {
+      "roman_urdu_only": 295,
+      "short": 68,
+      "sarcasm_like": 5,
+      "negation": 27,
+      "long": 8
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.5923694779116466,
+      "short": 0.5811965811965812,
+      "sarcasm_like": 0.7142857142857143,
+      "negation": 0.5,
+      "long": 0.8
+    },
+    "confusion_pairs": {
+      "positive->negative": 88,
+      "neutral->negative": 93,
+      "positive->neutral": 67,
+      "negative->neutral": 45,
+      "neutral->positive": 2
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Bhot se ander sa sb bc",
+          "gold": "negative",
+          "pred": "neutral"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "....That's one function saadgi",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Awaam ko kyu pagal banaraha ha!",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": " ki kursi chahye kitna  or  chahye hogi...!",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir bhe Wo Qurbani na karay tou Wo Hamari Eid Gah k Qareeb bhe na aye",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Nabila ap jaisa na to hai aur na hoga.",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Iss azeem hasti ka nam Jahangir Khan tha jis ne Hint ko Squash ko khair bad kahne per majboor ker deya Jahangir ki kahani iss fateh alam ki kahani hai jo apni na qabil yaqeen salahyaton ki bunyad per bagai ruke jadoo jagata raha unhein Squash ka Sikender E Azam bhi kaha ja sakta hai jis ke samne koi",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen05|zs_ur": {
+    "total_errors": 332,
+    "total_n": 498,
+    "error_rate": 0.6666666666666666,
+    "bucket_errors": {
+      "roman_urdu_only": 332,
+      "short": 93,
+      "sarcasm_like": 4,
+      "negation": 26,
+      "long": 9
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6666666666666666,
+      "short": 0.7948717948717948,
+      "sarcasm_like": 0.5714285714285714,
+      "negation": 0.48148148148148145,
+      "long": 0.9
+    },
+    "confusion_pairs": {
+      "positive->negative": 166,
+      "neutral->negative": 166
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": " ki kursi chahye kitna  or  chahye hogi...!",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Nabila ap jaisa na to hai aur na hoga.",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Aesa b na jesa Lahore k sath hua hy",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Iss azeem hasti ka nam Jahangir Khan tha jis ne Hint ko Squash ko khair bad kahne per majboor ker deya Jahangir ki kahani iss fateh alam ki kahani hai jo apni na qabil yaqeen salahyaton ki bunyad per bagai ruke jadoo jagata raha unhein Squash ka Sikender E Azam bhi kaha ja sakta hai jis ke samne koi",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen05|fs_en": {
+    "total_errors": 323,
+    "total_n": 498,
+    "error_rate": 0.6485943775100401,
+    "bucket_errors": {
+      "roman_urdu_only": 323,
+      "short": 62,
+      "negation": 41,
+      "long": 5,
+      "sarcasm_like": 6
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6485943775100401,
+      "short": 0.5299145299145299,
+      "sarcasm_like": 0.8571428571428571,
+      "negation": 0.7592592592592593,
+      "long": 0.5
+    },
+    "confusion_pairs": {
+      "positive->neutral": 158,
+      "negative->neutral": 162,
+      "negative->positive": 2,
+      "neutral->negative": 1
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Nachay bagher pakistani koi cheeznahin kha saktay is add say ye pata chalta hay",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Ek number ki khabees aurat hai yeh page wali:P",
+          "gold": "negative",
+          "pred": "neutral"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "....That's one function saadgi",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "zara acha nahi lagta ya color is pa",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Jo bhi howa acha howa lekin natijaa kujh khas nahi niklega kuch din k under dobara azad ho jaiga ye ",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Munafiq ALI Se Muhabbat Nahi Karta",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "long": [
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Jansherbhi bila shuba aik azeem khelari they un ka moqabla Jahangir Khan ke sath martaba hua ke world open final tak dono baraber yani matches jeete they akhri moqabla Jansher ne jeeta iss tarah un ke darmeyan record ho gaya",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Ajj Pakistan kay alawa Islami duniya mein bhi Edhi nay aik ghar khudgharz aur muhtarma shaks kay tour sherat pai hai shurat aur izat kay bawud inhone apni sada zindagi ko tarak nahi kiya woh sada rawati Pakistani libas pehante hain jo sirf aik ya do din in ki mumlikat hai iske alawa in ki malkiyat k",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": " June ko ulma ke aik wafad se baat chet karte hoye Wazir e Azam Shaukat Aziz ne kha ke qanon ki hukumrani yaqini banana hukumat ki zimedari hai, masher se boraiyon ke khatme aur awam ko insaf ki fari aur sasti farhami ko yaqini banane ke leye hum kaam kar rahe hain",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "Awaam ko kyu pagal banaraha ha!",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Buhahah ! Sahi khel gya",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Buhat hi cheap material ka bnna hua kurta hai ! Hate the stuff",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen05|fs_ur": {
+    "total_errors": 332,
+    "total_n": 498,
+    "error_rate": 0.6666666666666666,
+    "bucket_errors": {
+      "roman_urdu_only": 332,
+      "short": 93,
+      "sarcasm_like": 4,
+      "negation": 26,
+      "long": 9
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6666666666666666,
+      "short": 0.7948717948717948,
+      "sarcasm_like": 0.5714285714285714,
+      "negation": 0.48148148148148145,
+      "long": 0.9
+    },
+    "confusion_pairs": {
+      "positive->negative": 166,
+      "neutral->negative": 166
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": " ki kursi chahye kitna  or  chahye hogi...!",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Nabila ap jaisa na to hai aur na hoga.",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Aesa b na jesa Lahore k sath hua hy",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Iss azeem hasti ka nam Jahangir Khan tha jis ne Hint ko Squash ko khair bad kahne per majboor ker deya Jahangir ki kahani iss fateh alam ki kahani hai jo apni na qabil yaqeen salahyaton ki bunyad per bagai ruke jadoo jagata raha unhein Squash ka Sikender E Azam bhi kaha ja sakta hai jis ke samne koi",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen05|cot_en": {
+    "total_errors": 324,
+    "total_n": 498,
+    "error_rate": 0.6506024096385542,
+    "bucket_errors": {
+      "roman_urdu_only": 324,
+      "short": 83,
+      "refused": 47,
+      "sarcasm_like": 3,
+      "negation": 27,
+      "long": 8
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "refused": 47,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6506024096385542,
+      "short": 0.7094017094017094,
+      "refused": 1.0,
+      "sarcasm_like": 0.42857142857142855,
+      "negation": 0.5,
+      "long": 0.8
+    },
+    "confusion_pairs": {
+      "positive->negative": 96,
+      "neutral->negative": 88,
+      "neutral->unknown": 19,
+      "positive->neutral": 22,
+      "negative->neutral": 16,
+      "negative->positive": 20,
+      "negative->unknown": 18,
+      "neutral->positive": 35,
+      "positive->unknown": 10
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "refused": [
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Bhot se ander sa sb bc",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "sharam ki baat ha",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "Munafiq ALI Se Muhabbat Nahi Karta",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "Ayesha Muzzafer math nh ati?",
+          "gold": "negative",
+          "pred": "unknown"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Awaam ko kyu pagal banaraha ha!",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Munafiq ALI Se Muhabbat Nahi Karta",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Jany do Ye word  na lena dobara khan ko phir yad ajai ga",
+          "gold": "negative",
+          "pred": "positive"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Iss azeem hasti ka nam Jahangir Khan tha jis ne Hint ko Squash ko khair bad kahne per majboor ker deya Jahangir ki kahani iss fateh alam ki kahani hai jo apni na qabil yaqeen salahyaton ki bunyad per bagai ruke jadoo jagata raha unhein Squash ka Sikender E Azam bhi kaha ja sakta hai jis ke samne koi",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen05|cot_ur": {
+    "total_errors": 368,
+    "total_n": 498,
+    "error_rate": 0.7389558232931727,
+    "bucket_errors": {
+      "roman_urdu_only": 368,
+      "short": 102,
+      "refused": 115,
+      "sarcasm_like": 6,
+      "negation": 32,
+      "long": 9
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "refused": 115,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.7389558232931727,
+      "short": 0.8717948717948718,
+      "refused": 1.0,
+      "sarcasm_like": 0.8571428571428571,
+      "negation": 0.5925925925925926,
+      "long": 0.9
+    },
+    "confusion_pairs": {
+      "positive->negative": 123,
+      "neutral->unknown": 36,
+      "neutral->negative": 130,
+      "negative->unknown": 38,
+      "positive->unknown": 41
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "unknown"
+        }
+      ],
+      "refused": [
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Bhot se ander sa sb bc",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "....That's one function saadgi",
+          "gold": "positive",
+          "pred": "unknown"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Awaam ko kyu pagal banaraha ha!",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Buhat hi cheap material ka bnna hua kurta hai ! Hate the stuff",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "unknown"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "to tjhy e kaha hai na lub ju",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "nahi ha tariqa kam ka ata inko",
+          "gold": "negative",
+          "pred": "unknown"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Iss azeem hasti ka nam Jahangir Khan tha jis ne Hint ko Squash ko khair bad kahne per majboor ker deya Jahangir ki kahani iss fateh alam ki kahani hai jo apni na qabil yaqeen salahyaton ki bunyad per bagai ruke jadoo jagata raha unhein Squash ka Sikender E Azam bhi kaha ja sakta hai jis ke samne koi",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen15|zs_en": {
+    "total_errors": 300,
+    "total_n": 498,
+    "error_rate": 0.6024096385542169,
+    "bucket_errors": {
+      "roman_urdu_only": 300,
+      "short": 79,
+      "sarcasm_like": 4,
+      "negation": 25,
+      "long": 7
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6024096385542169,
+      "short": 0.6752136752136753,
+      "sarcasm_like": 0.5714285714285714,
+      "negation": 0.46296296296296297,
+      "long": 0.7
+    },
+    "confusion_pairs": {
+      "positive->negative": 135,
+      "neutral->negative": 160,
+      "neutral->positive": 3,
+      "negative->positive": 2
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Buhahah ! Sahi khel gya",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": " ki kursi chahye kitna  or  chahye hogi...!",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Nabila ap jaisa na to hai aur na hoga.",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Aesa b na jesa Lahore k sath hua hy",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Ajj Pakistan kay alawa Islami duniya mein bhi Edhi nay aik ghar khudgharz aur muhtarma shaks kay tour sherat pai hai shurat aur izat kay bawud inhone apni sada zindagi ko tarak nahi kiya woh sada rawati Pakistani libas pehante hain jo sirf aik ya do din in ki mumlikat hai iske alawa in ki malkiyat k",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen15|zs_ur": {
+    "total_errors": 329,
+    "total_n": 498,
+    "error_rate": 0.6606425702811245,
+    "bucket_errors": {
+      "roman_urdu_only": 329,
+      "short": 89,
+      "sarcasm_like": 4,
+      "negation": 26,
+      "long": 10
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6606425702811245,
+      "short": 0.7606837606837606,
+      "sarcasm_like": 0.5714285714285714,
+      "negation": 0.48148148148148145,
+      "long": 1.0
+    },
+    "confusion_pairs": {
+      "positive->negative": 162,
+      "neutral->negative": 163,
+      "neutral->positive": 3,
+      "negative->positive": 1
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": " ki kursi chahye kitna  or  chahye hogi...!",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Nabila ap jaisa na to hai aur na hoga.",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Aesa b na jesa Lahore k sath hua hy",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen15|fs_en": {
+    "total_errors": 223,
+    "total_n": 498,
+    "error_rate": 0.44779116465863456,
+    "bucket_errors": {
+      "roman_urdu_only": 223,
+      "short": 50,
+      "negation": 27,
+      "long": 4,
+      "sarcasm_like": 3
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.44779116465863456,
+      "short": 0.42735042735042733,
+      "sarcasm_like": 0.42857142857142855,
+      "negation": 0.5,
+      "long": 0.4
+    },
+    "confusion_pairs": {
+      "neutral->positive": 51,
+      "neutral->negative": 75,
+      "negative->positive": 38,
+      "negative->neutral": 10,
+      "positive->negative": 44,
+      "positive->neutral": 5
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Kal k liye ha or IPHONEX120 ha",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Bx kRu ab ChoRE doo PEECha omore ICECREAM KA",
+          "gold": "negative",
+          "pred": "positive"
+        }
+      ],
+      "short": [
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Shop ka kh rhi",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Zunnorain mjhy kya pta",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir bhe Wo Qurbani na karay tou Wo Hamari Eid Gah k Qareeb bhe na aye",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Nabila ap jaisa na to hai aur na hoga.",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "long": [
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Yar ye maine mangwaye thay ek apni CD ke liye or dusra maine dost ki ke liye mangwaya tha or jo mein lagaya hain na who bohot farq parha hai garhi ki awaz bhi change hui hai kaafi or mere dost ke mutabiq thora farq zaroor parha hai. Laken meri mein itne khaas pata nahi chala.",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "Buhahah ! Sahi khel gya",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": " ki kursi chahye kitna  or  chahye hogi...!",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen15|fs_ur": {
+    "total_errors": 320,
+    "total_n": 498,
+    "error_rate": 0.642570281124498,
+    "bucket_errors": {
+      "roman_urdu_only": 320,
+      "short": 63,
+      "sarcasm_like": 6,
+      "negation": 42,
+      "long": 5
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.642570281124498,
+      "short": 0.5384615384615384,
+      "sarcasm_like": 0.8571428571428571,
+      "negation": 0.7777777777777778,
+      "long": 0.5
+    },
+    "confusion_pairs": {
+      "positive->neutral": 101,
+      "negative->positive": 24,
+      "neutral->positive": 48,
+      "negative->neutral": 141,
+      "positive->negative": 2,
+      "neutral->negative": 4
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Nachay bagher pakistani koi cheeznahin kha saktay is add say ye pata chalta hay",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Ek number ki khabees aurat hai yeh page wali:P",
+          "gold": "negative",
+          "pred": "neutral"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "....That's one function saadgi",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Awaam ko kyu pagal banaraha ha!",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Buhat hi cheap material ka bnna hua kurta hai ! Hate the stuff",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "zara acha nahi lagta ya color is pa",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Jo bhi howa acha howa lekin natijaa kujh khas nahi niklega kuch din k under dobara azad ho jaiga ye ",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Munafiq ALI Se Muhabbat Nahi Karta",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Phir bhe Wo Qurbani na karay tou Wo Hamari Eid Gah k Qareeb bhe na aye",
+          "gold": "negative",
+          "pred": "neutral"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Iss azeem hasti ka nam Jahangir Khan tha jis ne Hint ko Squash ko khair bad kahne per majboor ker deya Jahangir ki kahani iss fateh alam ki kahani hai jo apni na qabil yaqeen salahyaton ki bunyad per bagai ruke jadoo jagata raha unhein Squash ka Sikender E Azam bhi kaha ja sakta hai jis ke samne koi",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ]
+    }
+  },
+  "qwen15|cot_en": {
+    "total_errors": 318,
+    "total_n": 498,
+    "error_rate": 0.6385542168674698,
+    "bucket_errors": {
+      "roman_urdu_only": 318,
+      "short": 67,
+      "refused": 111,
+      "sarcasm_like": 4,
+      "negation": 35,
+      "long": 10
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "refused": 111,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6385542168674698,
+      "short": 0.5726495726495726,
+      "refused": 1.0,
+      "sarcasm_like": 0.5714285714285714,
+      "negation": 0.6481481481481481,
+      "long": 1.0
+    },
+    "confusion_pairs": {
+      "neutral->negative": 71,
+      "negative->unknown": 48,
+      "neutral->unknown": 32,
+      "positive->unknown": 31,
+      "positive->negative": 56,
+      "negative->neutral": 17,
+      "neutral->positive": 35,
+      "positive->neutral": 12,
+      "negative->positive": 16
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "Bx kRu ab ChoRE doo PEECha omore ICECREAM KA",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Javed Miandad, Asif Iqbal ki hamrahi inning ka agaz kiya aur apne phele hi match mein runs ka bara score bana dala",
+          "gold": "positive",
+          "pred": "unknown"
+        }
+      ],
+      "short": [
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Shop ka kh rhi",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Zunnorain mjhy kya pta",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ],
+      "refused": [
+        {
+          "text": "Bx kRu ab ChoRE doo PEECha omore ICECREAM KA",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "unknown"
+        },
+        {
+          "text": "Javed Miandad, Asif Iqbal ki hamrahi inning ka agaz kiya aur apne phele hi match mein runs ka bara score bana dala",
+          "gold": "positive",
+          "pred": "unknown"
+        },
+        {
+          "text": " Ghante Ka Kaha Tha Ghante Guzar Gaye Bijli Bahal Nai Hui Awam Azab Me Mubtila Sehri",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "usnay usay mara kitni buri bt ha ya",
+          "gold": "negative",
+          "pred": "unknown"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Buhahah ! Sahi khel gya",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": " ki kursi chahye kitna  or  chahye hogi...!",
+          "gold": "positive",
+          "pred": "negative"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "negative"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "Phir bhe Wo Qurbani na karay tou Wo Hamari Eid Gah k Qareeb bhe na aye",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "to tjhy e kaha hai na lub ju",
+          "gold": "negative",
+          "pred": "unknown"
+        }
+      ],
+      "long": [
+        {
+          "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela",
+          "gold": "positive",
+          "pred": "negative"
+        },
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "unknown"
+        },
+        {
+          "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote di",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "qwen15|cot_ur": {
+    "total_errors": 331,
+    "total_n": 498,
+    "error_rate": 0.6646586345381527,
+    "bucket_errors": {
+      "roman_urdu_only": 331,
+      "short": 77,
+      "negation": 40,
+      "long": 3,
+      "sarcasm_like": 4
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.6646586345381527,
+      "short": 0.6581196581196581,
+      "sarcasm_like": 0.5714285714285714,
+      "negation": 0.7407407407407407,
+      "long": 0.3
+    },
+    "confusion_pairs": {
+      "negative->positive": 165,
+      "neutral->positive": 159,
+      "neutral->negative": 7
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Un ka phela boy friend baras ki umar mein bana tha",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Nachay bagher pakistani koi cheeznahin kha saktay is add say ye pata chalta hay",
+          "gold": "negative",
+          "pred": "positive"
+        }
+      ],
+      "short": [
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Visit krty ha aj",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Log kam nahny gy",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "google kehrha ha temperature",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "sharam ki baat ha",
+          "gold": "negative",
+          "pred": "positive"
+        }
+      ],
+      "negation": [
+        {
+          "text": "zara acha nahi lagta ya color is pa",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Jo bhi howa acha howa lekin natijaa kujh khas nahi niklega kuch din k under dobara azad ho jaiga ye ",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Munafiq ALI Se Muhabbat Nahi Karta",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Phir bhe Wo Qurbani na karay tou Wo Hamari Eid Gah k Qareeb bhe na aye",
+          "gold": "negative",
+          "pred": "positive"
+        }
+      ],
+      "long": [
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": "Yar ye maine mangwaye thay ek apni CD ke liye or dusra maine dost ki ke liye mangwaya tha or jo mein lagaya hain na who bohot farq parha hai garhi ki awaz bhi change hui hai kaafi or mere dost ke mutabiq thora farq zaroor parha hai. Laken meri mein itne khaas pata nahi chala.",
+          "gold": "neutral",
+          "pred": "positive"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "Awaam ko kyu pagal banaraha ha!",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Buhahah ! Sahi khel gya",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Buhat hi cheap material ka bnna hua kurta hai ! Hate the stuff",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "i eat all the junk n still im not you! ",
+          "gold": "neutral",
+          "pred": "negative"
+        }
+      ]
+    }
+  },
+  "xlm-roberta-base|-": {
+    "total_errors": 302,
+    "total_n": 498,
+    "error_rate": 0.606425702811245,
+    "bucket_errors": {
+      "roman_urdu_only": 302,
+      "short": 64,
+      "sarcasm_like": 6,
+      "negation": 38,
+      "long": 4
+    },
+    "bucket_totals": {
+      "roman_urdu_only": 498,
+      "short": 117,
+      "sarcasm_like": 7,
+      "negation": 54,
+      "long": 10
+    },
+    "bucket_error_rates": {
+      "roman_urdu_only": 0.606425702811245,
+      "short": 0.5470085470085471,
+      "sarcasm_like": 0.8571428571428571,
+      "negation": 0.7037037037037037,
+      "long": 0.4
+    },
+    "confusion_pairs": {
+      "positive->neutral": 140,
+      "negative->neutral": 130,
+      "positive->negative": 9,
+      "negative->positive": 14,
+      "neutral->positive": 6,
+      "neutral->negative": 3
+    },
+    "sample_errors": {
+      "roman_urdu_only": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Ek number ki khabees aurat hai yeh page wali:P",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Bhot se ander sa sb bc",
+          "gold": "negative",
+          "pred": "neutral"
+        }
+      ],
+      "short": [
+        {
+          "text": "Pakistan ko apna ghar samjhain",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "bakwas machine ha",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "kitni khushi ki baat hai",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "....That's one function saadgi",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "sarcasm_like": [
+        {
+          "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Awaam ko kyu pagal banaraha ha!",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Buhahah ! Sahi khel gya",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Buhat hi cheap material ka bnna hua kurta hai ! Hate the stuff",
+          "gold": "negative",
+          "pred": "neutral"
+        }
+      ],
+      "negation": [
+        {
+          "text": "Q nahi jan",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "zara acha nahi lagta ya color is pa",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Jo bhi howa acha howa lekin natijaa kujh khas nahi niklega kuch din k under dobara azad ho jaiga ye ",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "Munafiq ALI Se Muhabbat Nahi Karta",
+          "gold": "negative",
+          "pred": "neutral"
+        },
+        {
+          "text": "koi sawal nahi playstation bhot acha tha",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ],
+      "long": [
+        {
+          "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge",
+          "gold": "positive",
+          "pred": "neutral"
+        },
+        {
+          "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ",
+          "gold": "negative",
+          "pred": "positive"
+        },
+        {
+          "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya",
+          "gold": "neutral",
+          "pred": "positive"
+        },
+        {
+          "text": " June ko ulma ke aik wafad se baat chet karte hoye Wazir e Azam Shaukat Aziz ne kha ke qanon ki hukumrani yaqini banana hukumat ki zimedari hai, masher se boraiyon ke khatme aur awam ko insaf ki fari aur sasti farhami ko yaqini banane ke leye hum kaam kar rahe hain",
+          "gold": "positive",
+          "pred": "neutral"
+        }
+      ]
+    }
+  }
+}

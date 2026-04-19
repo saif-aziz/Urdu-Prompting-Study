@@ -1,0 +1,45 @@
+seed: 42
+output_dir: results
+
+dataset:
+  hf_candidates:
+    - ayeshasameer/roman-urdu-sentiment-analysis
+    - Aimlab/Sentiment-Analysis-Roman-Urdu
+  local_csv: data/sample_urdu_sentiment.csv
+  text_column: text
+  label_column: label
+  max_train: 2000
+  max_test: 500
+  label_set: [negative, neutral, positive]
+
+models:
+  - name: Qwen/Qwen2.5-0.5B-Instruct
+    short: qwen05
+    quantize: false
+    chat_template: true
+  - name: Qwen/Qwen2.5-1.5B-Instruct
+    short: qwen15
+    quantize: false
+    chat_template: true
+
+baseline_xlmr:
+  name: xlm-roberta-base
+  epochs: 3
+  batch_size: 16
+  lr: 2.0e-5
+  max_length: 128
+
+prompts: [zs_en, zs_ur, fs_en, fs_ur, cot_en, cot_ur]
+
+few_shot:
+  k: 3
+  balanced: true
+
+generation:
+  max_new_tokens: 128
+  do_sample: false
+  temperature: 1.0
+  batch_size: 8
+
+ablations:
+  shot_counts: [0, 1, 3, 5]

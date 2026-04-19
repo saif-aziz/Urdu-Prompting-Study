@@ -1,0 +1,498 @@
+{"idx": 0, "text": "Pakistan ko apna ghar samjhain", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 1, "text": "bakwas machine ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 2, "text": "Visit krty ha aj", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 3, "text": "Un ka phela boy friend baras ki umar mein bana tha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 4, "text": "Log kam nahny gy", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 5, "text": "kitni khushi ki baat hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 6, "text": "Nachay bagher pakistani koi cheeznahin kha saktay is add say ye pata chalta hay", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 7, "text": "Ek number ki khabees aurat hai yeh page wali:P", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 8, "text": "Kal k liye ha or IPHONEX120 ha", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 9, "text": "Bhot se ander sa sb bc", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 10, "text": "Bx kRu ab ChoRE doo PEECha omore ICECREAM KA", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 11, "text": "google kehrha ha temperature", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 12, "text": "Javed Miandad, Asif Iqbal ki hamrahi inning ka agaz kiya aur apne phele hi match mein runs ka bara score bana dala", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 13, "text": "apki quality ko kya hgya ha ?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 14, "text": " Ghante Ka Kaha Tha Ghante Guzar Gaye Bijli Bahal Nai Hui Awam Azab Me Mubtila Sehri", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 15, "text": "Traffic Rawaan Dawaan Hai Makami Zarai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 16, "text": "....That's one function saadgi", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 17, "text": "high court mein sangeen ghaddari case", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 18, "text": "August mein High Court ne Muhammad Nawaz Sharif ki factories seal aur par Excise ka imla mutayan kar deya", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 19, "text": "NOOR PHHELA HUA AAJ KI RAAT HAI!", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 20, "text": "ja k mry lye shopping kro", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 21, "text": "Duao ka Adda agya aknh kholin bhar lain bag zindagy ke", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 22, "text": "Q nahi jan", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 23, "text": "zara acha nahi lagta ya color is pa", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 24, "text": "lawn ke dresses bhi katam hogae", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 25, "text": "kasam sey aunti got no chillMagar video puri dekhna", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 26, "text": " sala Jahangir ne Hint ko itna zayada pehle hi game mein thaka deya tha ke un ki tawanai mein kami nazar ane lagi thi Hint apne harifon ko thaka ker harane mein mashhoor they lakin iss roze woh khud shikar ho rahe they yeh umda mansooba bandi ka nateja tha Jahangir ne pehla game iss andaz mein khela tha ke usey zayada sey zayada lamba keya ja sake", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 27, "text": "apny andar se Ghuroor ki aadat ko mitta dena chahty ho", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 28, "text": "Jo bhi howa acha howa lekin natijaa kujh khas nahi niklega kuch din k under dobara azad ho jaiga ye ", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 29, "text": "Ismail Mohamad q teri ami he bhnchod", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 30, "text": "izzat karen to inhen poooray naam se pukaro\"", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 31, "text": "Chotay soch walon c bat nae krta", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 32, "text": "usnay usay mara kitni buri bt ha ya", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 33, "text": "sharam ki baat ha", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 34, "text": "Apne career mien inho ne art films ki kam o besh tamam maroof heroins ke sath kaam kiya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 35, "text": "Munafiq ALI Se Muhabbat Nahi Karta", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 36, "text": "mujhe zaroorat nahi bibi. meray pass aik cleanware App hai", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 37, "text": "Shop ka kh rhi", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 38, "text": "I Love your Lahore Qalandars", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 39, "text": "Haha ye zerlish ko pata hai wo kehti thi esy", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 40, "text": "Maria b ka yea shute silk k h", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 41, "text": "koi sawal nahi playstation bhot acha tha", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 42, "text": "Phir bhe Wo Qurbani na karay tou Wo Hamari Eid Gah k Qareeb bhe na aye", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 43, "text": "Zunnorain mjhy kya pta", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 44, "text": "to tjhy e kaha hai na lub ju", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 45, "text": "isko sahe nahi hoga ya kch tarikha sahe nahi lagta hay", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 46, "text": "bhai is sa munasib deal zindagi ma ni mili", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 47, "text": "kya ye chotey baloun par asar dikhata hai?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 48, "text": "Aaj mall road par ba qaida mera qaid Hamza Shahbaz ke boards", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 49, "text": "rims pa dill agyaa iskay", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 50, "text": "Stitched ha kia", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 51, "text": "IN KO BHI APNI EID KI KHUSHION MAIN SHAMIL RAKHO...IN KA BHI HUK HAI...", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 52, "text": "yar such me ye chiz kamal he pehle mujhy lga k me ne apne paise waste kiye hin laikin ye wakai me zabardast he.heart rate sensor is percent ok and step counter is not that good but i will give it stars. aur han aik smart phone se connect karo tb hi percent faida uta sako ge", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 53, "text": "Ayesha Muzzafer math nh ati?", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 54, "text": "Jany do Ye word  na lena dobara khan ko phir yad ajai ga", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 55, "text": "Mashah Allah, Allah kreem qabool frmay", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 56, "text": "Hr collection zabardast hoti ha", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 57, "text": "Rana Liaquat Ali Khan ko tehreek e Pakistan ki aik khamosh rukun hone ke elawa Pakistan ke phele wazir e azam ki ahliya hone ka izaz bhi hasil hai.", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 58, "text": "afsos hota hai garip insan kha jay Allah ki lati me awaz hai jo zulum kry ga Allah ki lati pary gi", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 59, "text": "Ahooo... matches jeet k itna zaleel koi zindagii m ni hoa hoga.. Tum match ki bat krty.", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 60, "text": "Bhai lakin iska apna he maza hai ye kha kr dil krta hai transport ka business start kr dain", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 61, "text": "is saal big friday sale nae lagi", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 62, "text": "Ya Allah madam farma", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 63, "text": "service center kidr ha karachi mei?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 64, "text": "Gajaw ho yar bhai Jan", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 65, "text": "yaar daraoo nae", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 66, "text": "Pakistan ka lafz aik alehda Muslim watan ke liye sab se pehley Choudhry Rehmat Ali ne mein istemal kiya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 67, "text": "Kab Pakistani kom ma ghairat ayegy apni behn ko wapis lanay ma. Ufffff I m disheart", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 68, "text": "ma deserve krta hun ya gari", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 69, "text": "In sheharon mein Brasilia, Sao Paulo, Salvador, Recife, Cuiaba, Manaus, Natal, Rio de Janeiro, Fortaleza, Belo Horizonte, Porto Alegre aur Curitiba shamil hain", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 70, "text": "Jeans achi hoti hain", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 71, "text": "you are not kamyaaab abhi ", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 72, "text": "mein aur mere khandaan jo kuch bhi hum ne aap se liya, louta kar aye hain .", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 73, "text": "Dash dash han mushkil tha mai abhi choti hn na mjhse control nhi hota bol deti hn", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 74, "text": "pink wala acha hy", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 75, "text": "chal yar servis chalein", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 76, "text": " ki koi chapal hai?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 77, "text": "Mohammad Hafeez: Bihat ziyadah afsos hota hai, hum guzishta kai baras se mushkil halat mein kheel rahe hain, is doran kai masail ka samna karna para, baz tanaziyat se mutasir mulki cricket ka waqar bahal ho chukka hai, ab international cricket bahal ho jaye to awam ko bhi matches se lutf andoz hone ka moqa mile ga", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 78, "text": "Awaam ko kyu pagal banaraha ha!", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 79, "text": "Retired honey sey pehley unhon ney mosalsel bar yea ejaz hasil kea jo aik record hay", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 80, "text": "M lait gya hon lamba lambaaa", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 81, "text": "Sabar Karne Wale Rozedar K Barabr Hota Hain", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 82, "text": "Me ye expensive kurti nhi ly skti", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 83, "text": "Zaberdast sheesha Hai one liqua flavour bhe hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 84, "text": "parvez musharraf ka hospital se bayaan jaari", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 85, "text": "nahi ha tariqa kam ka ata inko", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 86, "text": "lush push barish ha", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 87, "text": "Is tarah wo aaj tak sab ke Lala he hain", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 88, "text": "Fazool hi ho gi episode tbi to dkha b nhn", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 89, "text": "Yahan hamari daastaan khatam hoti hai.", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 90, "text": "Ki drama last episode hai mujhe bahut acchi lagi uska result bhi bahut achcha hai aadami dang rah jata hai", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 91, "text": "yh v thrk ka ak level h check kro", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 92, "text": "i thought Pakistani e pit rhe Nawaz milne per ye to next level ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 93, "text": "Nabila ap jaisa na to hai aur na hoga.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 94, "text": "mjhay farq nahi dikhai deta ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 95, "text": "washing machine ka paisa bata dain", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 96, "text": "loreal ki models bhut khubsurat hain", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 97, "text": "Sabiq Bharti Sadar Abdul Kalam Sal Ki Umar Me Inteqal Kar Gaye", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 98, "text": "Aik branch Gulshan Ravi Lahore ma bhi kholain", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 99, "text": "is mein daiko blue dupatta wala", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 100, "text": "remorte park mai nahi ha aisa kch bhe", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 101, "text": "Aesa b na jesa Lahore k sath hua hy", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 102, "text": "family mei shadi hai", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 103, "text": "Is century mein sub hi cheezien dekhne ko mil gai hain, wow", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 104, "text": "Hai to magar:)", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 105, "text": "Azam Khan bare mehnati aur housla wale khelari thay", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 106, "text": "Allah hidayat de khawateen ko.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 107, "text": "Mery to nam sun k hi gudgudi hony lg gai ha", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 108, "text": "khun kay insaniyat ki khidmaat per Pakistan mein Institute of Business Administration say doctorate ki azarai digri di gai hai.", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 109, "text": "meine aj he khareda ha yeh phone", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 110, "text": "lBA chlna mere sth", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 111, "text": "Karachi ki taraqqi mein ahem pishrft mutawaqqa ,", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 112, "text": "Rangers Ke Ikhtiaraat Sirf Karachi Tak Mehdood Rangers Ko Androon e Sindh Mein Karwai Ka Ikhtiaar He Nahi Hoga", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 113, "text": "ama aba h fb per? ", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 114, "text": "punjab aj jheetega", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 115, "text": "parents produce kartay hein dunya mei", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 116, "text": "Subhanallah", "gold": "neutral", "raw": "positive", "pred": "positive"}
+{"idx": 117, "text": "aik din hum dno aik jaisa hngay", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 118, "text": "isko behtareen karna ka sochna chayya tha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 119, "text": "Aakhri khuwari sabit hone wali thi ye.", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 120, "text": "Apne taste ka music Mila saloon baad...", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 121, "text": "Agha jii b toh cute hain", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 122, "text": ". Hahaha jaan g yeh AP hain", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 123, "text": "suspend kui ka ja rha ha ???", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 124, "text": "hum plastic ke apne istemaal ko kam karne ke tareeqon par mustaqil talaash kar rahay hain", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 125, "text": "Kon c kitab sa merwi hA ya bt", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 126, "text": "Khuda k khoof krain Maria b.sale pa ye prices", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 127, "text": "ab bikul bhi nae socha honda ki car kharedny ka", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 128, "text": "mujhe umeed hai ke aap ki kawishon ko nateeja miley ga .", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 129, "text": "Agr chance hai tou kitny person ha admin sahab", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 130, "text": "mera Pakistan hamary jannat he or wo islye he k yahan bht say achay log hen jese hamaray iqrar bhaiPakistaaaaan zindabaaad", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 131, "text": "Ab school band nhi hon gy bhai", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 132, "text": "special bachi ki walida hon, zamanat di jaye", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 133, "text": "aby zainda hai tu ya mar gya Wayki:D", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 134, "text": "Apki outlet ny repair kiy again din chaly bus.", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 135, "text": "Han or phle ka tha ab kisi ni original price likhi hui rhne do", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 136, "text": "ab hum bank al falah riayat haasil karne ke liye -apne order ko nah to rokkk satke hain aur nah hi usay mansookh kar saktay hain. is ki intehai mayoosi hai", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 137, "text": "Sir Abdullah haroon ki koshishon aur muslim league ki markazi majlis e aamla ke tawwun se se October ko aik azeem ul shaan conference Karachi ke eid gaah meydan mein munaqid hui", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 138, "text": "bht shukria sony apka", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 139, "text": "Buhahah ! Sahi khel gya", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 140, "text": "Nawaz Shareef ka paigham hai Kya???? Corrupt ko izzat do?", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 141, "text": "Bohat hi dilchasp maloom hota hai ye circuit.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 142, "text": "lalach ka anjam bura hi hota h", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 143, "text": "Ye black wale ka price kia hai.", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 144, "text": "Hi ap ka pic bat bat Acha hui", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 145, "text": "Agr Kisi Ko chahiye Tu inbox kry", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 146, "text": "ik he bahut hai .....Hum bhi yaad rakhenge", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 147, "text": "Ab to sajna sawrna chor do ab to ham ko. Milna ke umed be nahe", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 148, "text": "bekar experience tha huawei k sath", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 149, "text": "Pak Colony Me Police Ka Opperation Jari Dakhali Or Kharji Raste Band", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 150, "text": "Kya baat hai fahad bhai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 151, "text": "apni raye se mohabbat, aap ke meharban alfaaz ke liye bohat bohat shukriya !", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 152, "text": "and zalim hoti hen girls to yr", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 153, "text": "isko sab color ma daikh ka sahe lagta ha", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 154, "text": "bhot shukria is achay color ka", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 155, "text": "mujhe ye kam paison mein miley thy lekin number nikle", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 156, "text": "Fazool me drama ltkaya hua h", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 157, "text": "muje yeh speaker kharedna ha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 158, "text": "Jo ap perfume wali kamarshl chala re ho", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 159, "text": "achi pic hti agar ye yellow dress wali na hti", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 160, "text": "Hahah yrr yehi bnta haii.... Or waki aysa hi hai,,", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 161, "text": "Lol tum yeh khareed lo", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 162, "text": "Ye larka mjhe bilkul nhi pasand", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 163, "text": "yaar end nae kerna chiyeah tha itni jldhi main to aik he dahkta tha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 164, "text": "PSO na bhot he acha kara ha is dafa sab", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 165, "text": "Saray zamanay ke galazat unhe Kay zehn Bari hoye Hai batmeez kaheen kay", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 166, "text": "honda tumari kashti pechey rehgae", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 167, "text": "barah karam , mahino mein yeh kaam karen. saal mein nahi .", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 168, "text": "Ap muskaraty hovy bahut Achi lagti hn Allah apko Hamesha khush rakhy sarah khan or ap ki zindgi mein sirf khushean hi hon", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 169, "text": "Or wo ma'am ab sb smjh agaya agli bar paper smjhne me masla nhi hoga", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 170, "text": "mera parcel still nahi deliver krwaya", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 171, "text": "achey products knsy hain?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 172, "text": "Is se acha chinyere pr dekha mne", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 173, "text": "bhot ajeeb si ha ya aston martin", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 174, "text": "ALLAH PAK tera shukar hai.", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 175, "text": "Is tarha District Court mein apni practice jari rakhte howae main ne senior Judge ke sath family laws par kafi kaam kiya.", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 176, "text": "Kal barish ho GI kya", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 177, "text": "martin ajeeb sa lag raha hay", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 178, "text": "price bta do please", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 179, "text": "Selma Lagerlof bayak waqat mahir e taleem, Novel nigar, kahani kar, shayar, sawanah nigar, khud nosht nigar aur drama nigar thein", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 180, "text": "yaha sakht londy bhi pighlty hain", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 181, "text": "mjhay tezz gariyan bhot pasnd ha", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 182, "text": "agar aap mardana libaas talaash kar rahay hain to barah karam log yahan apna waqt zaya nah karen .", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 183, "text": "Saturday k bd kesa hoga weather", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 184, "text": "point chart kaha ha digicash ka?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 185, "text": "Phir November ko president George Bush ne American sifaratkari ke aeham tareen mansab \" Secretary of Estate \" ke liye inhe namzad kar diya, taqriban maah bad jab us mansab par taqriri ki tauseeq ke liye senate ke arkaan ki raaey shumari hui to centers ne rice ke haq mein aur ne in ke khilaaf vote diya", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 186, "text": "I Love you Lahore Qalandars G", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 187, "text": "good", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 188, "text": "pooray world ki world famous director hain aaaaappppp. learnt alottt alot from u. and still sooooooooooo sad to miss yesterday's shoot.", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 189, "text": "chalti nahi bhgati ha sirf ya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 190, "text": "galat horha ha gareb awam k sath", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 191, "text": "Chor", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 192, "text": "yar jaga chota he", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 193, "text": "is bar daraz laya hai khaas. yakeenan is k liye hoga sabar apko hamary sath", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 194, "text": "Bht acha mosam h", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 195, "text": "Hahhaha Sun Yr Bacha Zyda He Shareef Ban Rha Hy lolxxxxOye To Ifti He Hy Na:-o", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 196, "text": "Allah pk apna khas karam kry in par", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 197, "text": "bhut bura haal hogia ha sardiyon mei", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 198, "text": "Koi bat nhe ak muqa dea wsy bhi Multan Sultan top pr hai.", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 199, "text": "apnon ne to wafa ka mujhe yeh sila diya", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 200, "text": "meine abi notice kia ha", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 201, "text": "mujhe yaqeen hai jaisay yeh hum ko zeher lagti hai bilkul isi terhan uski saas ko bhi yeh zeher lagti ho gi .", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 202, "text": "Saal mein American jarida news week ne inhe duniya ki ba asar shakhsiyat ki list mein number par shumar kiya jab ke saal mein famous mahana jarida GQ ke british addition mein in ka naam best dressed man ki list mein shamil kiya gaya", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 203, "text": "Yasir Khilji dear main Physical Therapy or medical treatment krta hon", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 204, "text": "sudar jao thora", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 205, "text": "yahi h na q chupa rahi thi", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 206, "text": "isko bhot dor bhejna parega", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 207, "text": "Price q nai bata rhe", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 208, "text": "mera bulbul sorha ha", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 209, "text": "Slim logo k lie fit hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 210, "text": "Allah sub pr apna reham farmaye", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 211, "text": "Allah razi ho ga. Aameen.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 212, "text": "Is me shaq hi nahi", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 213, "text": "chen one ka winter collection kab ayega?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 214, "text": "APki Nawazish hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 215, "text": "ok ayngy zaror", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 216, "text": "qabzay mein rakta hai", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 217, "text": "biryani khane chalenge aaj..", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 218, "text": "Sb kuch to bik jata pehly hi", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 219, "text": " mein Amritsar mein Jama ul sana hall bazaar mein jo ulom e sharqiya ki bhetareen darsgah thi wahan mahana tarhi mushairre hote the jin mein sharkat karna un ke leye bari khushi ki baat thi", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 220, "text": "e sardi garmio m yaad aye gi bohat", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 221, "text": "jo bhi hoga dekha jaega", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 222, "text": "coincidence hogia ha", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 223, "text": "Buhat hi cheap material ka bnna hua kurta hai ! Hate the stuff", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 224, "text": "A.salam sir plz hamri awaz uthy koi suny wala nai meri bachi ko katal kr dia gya zyasti kr ky", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 225, "text": "customer ko treat karne ka tarika bohat he satisfactory ha", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 226, "text": "naya model acha ha haier ka", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 227, "text": "Nahaney Per Pabandi Aid", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 228, "text": "yeh kahin bhi kisi bhi area se na takraye..aameen", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 229, "text": "is mein protein ka imtezaj aur pani ka istemal bari ahamiyat ka hamil hota hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 230, "text": "free shipment ka maza lijiye to deyr kis baat ki", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 231, "text": "Mere mou py lanat hy na to tera to mou he lanaton mein hy", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 232, "text": "Hum shareef Kia ho gae duniya badmash ho gae ", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 233, "text": "Luv all babesssss", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 234, "text": "mjhay crust pasnd hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 235, "text": "Lahore lainec nam hona chahiye lahore ki teem ka Qalandar afzal name h log gali date hain jb teem hrti h", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 236, "text": " mein unhain Aqwam e Muttahida ke tarqiati fund barae khawateeen ki taraf se Millennium Prize yani ・hazarey ke Inam ・se nawaza gea.  mein Asma Jahangir ko Lisl and Leo Eitinger Prize mila.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 237, "text": "Tujhe pata kese chale ga pagle", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 238, "text": "Iss azeem hasti ka nam Jahangir Khan tha jis ne Hint ko Squash ko khair bad kahne per majboor ker deya Jahangir ki kahani iss fateh alam ki kahani hai jo apni na qabil yaqeen salahyaton ki bunyad per bagai ruke jadoo jagata raha unhein Squash ka Sikender E Azam bhi kaha ja sakta hai jis ke samne koi ruk nahein pata tha", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 239, "text": "Khosa Sb Apne Bhi Mashahoor Honey K Liye Army Se Jung Cher Li Hai Allah Pak Apki Madad Karey Lekin Kam Bohat Mushkil Kar Rahe Ho", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 240, "text": "Ro dil bar k roo.salman pe.qandous mein to terrorist maray gaye hein.", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 241, "text": "Nahh baba saaas, saas hi rahygii", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 242, "text": "abhi bhi favorite hain", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 243, "text": "California mein gaari ke ikhraj ke khilaaf aap ki position neh lakhoon mumkina kharidaron ko herat zada kardiya .", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 244, "text": "best quality collection ha", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 245, "text": "Lehaza sab se achi tip to yehi hai ke husool aulaad ke khuwahishmand hon aur bachon ki parwarish se lutf uthae.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 246, "text": "Sahi baat ha", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 247, "text": "koi ticket chaiye hogi?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 248, "text": "Ay ki ji:P", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 249, "text": "perfect color ha", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 250, "text": "Jo Allah Say nahi darta wo sab kuch kar sakta ha aik din Allah in ko khud saza day ga in sha Allah", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 251, "text": "cook top ki price kia ha?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 252, "text": "Ye banker sirf banker hi nahi balke ammunition dump bhi tha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 253, "text": "toyota yahan ki tareekh ke ghalat rukh par hai .", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 254, "text": "phir to poora pakistan zaalim hua.", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 255, "text": "College ke ilmi-o-adbi mahaul mein unhe Gesoey Urdu sanwarne ki derena khuwahish pori karne ka mauqa muyassar aaega", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 256, "text": "Us ka Urdu adab mein numaya maqam hai, in ke bohat se ashaar Sehl-e-mumtana ki hesiyat rakhte hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 257, "text": "sir ko gusa class pr", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 258, "text": "aaj to khawateen ka din hy", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 259, "text": "yeh sach mei acha shampoo ha?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 260, "text": "issi brush say daant saaf kerain tu zihan bhi saaf ho gaa", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 261, "text": "bhut achi offer di ha jazzcash ney", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 262, "text": "me wapis karane same store gaya tha but meray pas invoice nai thi to unhone saaf mana kardia", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 263, "text": "Sakhi Hasan K Qareeb Firing Se Shakhs Janbahaq", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 264, "text": "Ptniiiiiii kdan pura thisi", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 265, "text": "Karachi weather update ne bhutt pehle bata de", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 266, "text": "Yah bi kam hen.", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 267, "text": "superb tribute to quaid baba", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 268, "text": "meine apni zindagi mein kabhi nhi dekha unilever ko kisi gaon mein kaam karte hue", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 269, "text": "Wo mein markazi Urdu board ke director muqarrar hue", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 270, "text": "Hdiya kasy karna ha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 271, "text": "mjhay smjhado kaha mila gi ya", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 272, "text": "Her episode p jati h TRP", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 273, "text": "KABI PANI NAHI HOTA", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 274, "text": "sab sa kamiyab model bna ha ya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 275, "text": "mjhe ek acha suit chahye...shadi k lye", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 276, "text": "Is sort e haal mein Intikhab Alam Imran Khan ke sath khare rahe", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 277, "text": "Brand band ho rha i think", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 278, "text": "plz iss ko thkk kare", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 279, "text": "chl ajaoth ki teacher k pass chlte or ye gaattee", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 280, "text": "YAAD aatey haan", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 281, "text": "hahaha good try", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 282, "text": "i eat all the junk n still im not you! ", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 283, "text": "Plz becharay shafay ko ab bata do kay usay aids hey.", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 284, "text": "Raghib Ahsan muslim league aur tehreek e Pakistan ke zinda zameer hain aur Raghib Ahsan par mujhe fakhar hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 285, "text": "mjhay iska har model samjh ana wala lagta ha bachpan sa", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 286, "text": "hum girls hn isliye judge kr skti hn but as a psychologist nhe kr sktien...ajeeb bat hmem ko btaen gy hum kr skti hn judge bcoz we r girls", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 287, "text": "ab tou woh khud dene aa rahein hein tohfe", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 288, "text": "Wo aaj ke dor mein directors aur producers ki nai nasal ke sath zaror kaam kar rahe hain magar apne kuch purane usalon par wo aaj bhi samjhota nahi karte", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 289, "text": "bht acha genertator hy dekhny my bht khoobsorat lgta hy price bi bht munasib hy sath battrey bi hy lekin awaaz aam baqi generator ki trah hy normal", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 290, "text": "Pta Ni Kahan hoty Hain aese kamyab mard ", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 291, "text": "Altaf Hussain kay dada Maulana Mufti Ramzan Hussain Aagrah UP kay Mufti aur Jaiyad Alam-a-deen thay", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 292, "text": "Aey ALLAH Muavia Ko Logon K Liye Zariya e Hidayat Khud Hidayat Yaafta Aur Un Se Hidayat Ka Kaam Bhi Lijiye", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 293, "text": "karachi kahin se nahi milegi", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 294, "text": "hamein tacoma mein diesel option ki zaroorat hai", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 295, "text": "Comedy shows ki bat ho to sab se pehle PTV ki tareekh ke maqbool tareen show Fifty Fifty ka naam zehan mein aata hai", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 296, "text": "Bht Achi Product Hai Ap Agr Lena Chahte Hain Sochiye Mat Jaldi Se Le Lain Thanks ", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 297, "text": "tum n konsa flavour khaya hai?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 298, "text": "jo achhai aur buraiee hoti hai woe hukoomat waqt par hoti hai", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 299, "text": "House full hai bhai this sesaon ka hitest darama hai ARy per behaten super", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 300, "text": "Farcy ka nhi .Arbic lfz ha . mani ha .mukhtalif", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 301, "text": "Sind mai upgradation howa hay", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 302, "text": "Outlets b ja kar fighting nai kar sakty", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 303, "text": "Tamam Users Astaqhfar Ka Wird Karen", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 304, "text": "kya hukoomat apni muddat poori kere gi?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 305, "text": "replcamene of Mitchell...is ther any other bowler?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 306, "text": "milo apny aap sy... milo apni aag sy.", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 307, "text": "sara ka sara nizaam hi bakwaz hwa para hai", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 308, "text": "khuwar smja hua ha kia apni trah", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 309, "text": "kch sahe karna he hga", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 310, "text": "tum o Ye ?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 311, "text": "DJ ki acting to best h or aj ki to or bhi superb", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 312, "text": "Yah hotay hain atticates or Manners Well Ali Khan Tareen Broo Yhii Farq he Ap main Or Baqion.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 313, "text": "humesha ki trah her stock out of stock ho ga", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 314, "text": "baqi to aap ko sub yaad hay", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 315, "text": " mein Johnny Depp ko maqbool TV show Jump Street mein kaam karne ka mauqa mila jis ke bad kamiyabiyon ke darwazey in par khulte he chale gaey", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 316, "text": "Ma na suna ha lemon sa haddiyan kamzor hoti hn regular Lana sa?", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 317, "text": "jitna kamaya hai utna lagaya bhi hai koi shaq nahi", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 318, "text": "Satra (17) minutes ke zordar moqable mein Barbar ,Torsam per dabao dal rahe they aur woh set ko", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 319, "text": "last Friday bhi kitne log mar gaye thai ..", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 320, "text": " ka model bhe kafi acha ha istemal ka nadra", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 321, "text": "Nawaz chor family chor h", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 322, "text": "addiction hogae ha rain sey hamay", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 323, "text": "Wukla Gawaho Or Ehlkaro K Qatilo Or Sahulatkaro Ko Girftar Kia Jaiga Rangers", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 324, "text": "toyota mere paas canada mein sab se pehlay thi ,", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 325, "text": "aj sherry engineer doctor bna hota tw hm b momina bhabi kehtay pr hamara sherry tw nikkama hai", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 326, "text": "Bhai ap akar sarva kar lain", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 327, "text": "achi cheez ala kar ao ya sab nahi chalay ga", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 328, "text": "kamaal ki shakhsiyat hain.... ALLAH ka bohat karam hai in par", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 329, "text": "Yarrrrrrrrrrrrr tm log sath kia krta.... Mari shkl dakhty khud b asa dant nikal nikal kr logon ki chuglyan krta", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 330, "text": "ya sab insano ko mar raha hay", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 331, "text": "iska tyres ma bhot maslay ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 332, "text": "Singing se talluq rakhne wale gharano ne ataullah ki singing ko mauseeqi ke sath narwa sulook se tabeer kiya", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 333, "text": "Haha no comments at this", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 334, "text": "nm acha processor nae ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 335, "text": "suna ha naya model bhut acha hoga", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 336, "text": "ab tabdeeli ki zaroorat hai", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 337, "text": "Lawn ki sale kab lagaoge?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 338, "text": "itna samjhany k baad bhi pata nahi Q hamari ki hui jagah par wakt par nh pohnch paty", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 339, "text": "bht khuwaar krwa chuka hy tu pehly b hyper mein.", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 340, "text": "Ek.nam.mera bhi daldetau", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 341, "text": "Kal new stock aye ga", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 342, "text": "Jansherbhi bila shuba aik azeem khelari they un ka moqabla Jahangir Khan ke sath martaba hua ke world open final tak dono baraber yani matches jeete they akhri moqabla Jansher ne jeeta iss tarah un ke darmeyan record ho gaya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 343, "text": "Thand b jaldi hi aaegi I think", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 344, "text": "service k sath mera bohat bura experience raha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 345, "text": "Beshak Allah humein hidayat Atta farmay Ameen", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 346, "text": "discount mei bed sheet ki hojaegi", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 347, "text": "yad-dasht baj rahi hogi tumhari", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 348, "text": "Han yeh dekhi hai post", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 349, "text": "Isi film ko bad mein Italian Stallion ke naam se release kiya gaya, jis ne bohat maqboliyat hasil ki", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 350, "text": "Me gareeb bnda hoo", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 351, "text": "magic retouch sirf aik he wash mei katam hojata ha", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 352, "text": "girls sy bhot acha lesson hay is my agr koi smjhy to good work", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 353, "text": "Sare chor hai lote te log ko", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 354, "text": "isnko sab pata ha kis tarha samn chayya", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 355, "text": "Ajj Pakistan kay alawa Islami duniya mein bhi Edhi nay aik ghar khudgharz aur muhtarma shaks kay tour sherat pai hai shurat aur izat kay bawud inhone apni sada zindagi ko tarak nahi kiya woh sada rawati Pakistani libas pehante hain jo sirf aik ya do din in ki mumlikat hai iske alawa in ki malkiyat khele joto ka aik jora hai jis ko woh sabqa sal say istemal kar rahe hain", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 356, "text": "Yar ye maine mangwaye thay ek apni CD ke liye or dusra maine dost ki ke liye mangwaya tha or jo mein lagaya hain na who bohot farq parha hai garhi ki awaz bhi change hui hai kaafi or mere dost ke mutabiq thora farq zaroor parha hai. Laken meri mein itne khaas pata nahi chala.", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 357, "text": "tumhri halat kuch asi hoti thi jab main tumhe apni pic send karti thi tumhre kapro k sath:D:D:D", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 358, "text": "har bal pe alag alag rang hua hai. ajeeb se lagne lagy hain ab", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 359, "text": "Science Group Me Kamyabi Ka Tanasub Or General Me Raha", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 360, "text": "Pir Pagara Hur jamat ke sarbarah azeem dargah Pagara Gaddi ke sajjadah nasheen aur aik mumtaz politician ki hesiyat se nihayat mutehrik nazar aate the", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 361, "text": "CM Sindh Ne Is Faislay Ko PPP K Khilaf Dhandli Qarar De Dia", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 362, "text": "qudrat ne unhein number wan khelari banne ki mohlet nahein di", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 363, "text": "Saddaf Ahsan gusa ap ki soch per ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 364, "text": "Maha rekhenge ya bulbul ab do naam hi Bache h", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 365, "text": "Uska baap b bussinessman hai. Baat ye hai k jo hamare yahan okaat se ziada shadiyon par kharch kia jata hai us par kuch likhen aap..", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 366, "text": "kis cheez pe%.", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 367, "text": "pakisran ma rehny wala har ak insan sirf or sirf pakistani ha koe panjabe pathan sendhe mahjier nahe or jo log pakistaneyon ko batt ty han wo pakistaneyon k mafad ma nahi samjy babo", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 368, "text": "Bakwas Tareen Trouser Hai Yahan Koi Aur Colors Aur Asal Main Koi Aur Kapra Bi Bohat Harab Hai Paisay Zaya Karnay Wali Baat Hai", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 369, "text": "Ulfat kin ae manzil ko chala Tu bahein daal ke baahon mein& Anwar Kamal Pasha ki in dono films ki kamiyabi mein Iqbal Bano ki awaaz ka bohat dakhal tha", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 370, "text": "Par karachi bhr hahahhahahaha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 371, "text": "Kaka reply ni kr rha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 372, "text": "audionic vision ha?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 373, "text": "nae suni hamay koi news ab", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 374, "text": "Hashim ne Squash ki dunia mein qadam rakhte aik toofan barpa keya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 375, "text": "sytem jaisa cadillac ka ha wais akch bhe nahi ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 376, "text": "Bas yahi kami baqi this bera gharaq karne k baad.khaqan lanat ho Teri manhoos shakal pe.", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 377, "text": "ab haier bekar hogia ha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 378, "text": "Mohibullah ne mertaba British open ke final mein pahonche magar teeno mertaba woh Azam Khan ke vhaton shikast sey do char ho gae", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 379, "text": "Nice, ALLAH PAK HUM SB MUSLIMS KE BACHCHON KO APNI HIFAZAT MEIN RAKHE", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 380, "text": "manzoor pushtoon ko galia deny waly qom ki beti aafia sadiq ko reha karo", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 381, "text": "yeh khalis qazaye Ellahi se hua hai lekin khabar is andaaz mein paish ki gayi hai jaisay yeh sirf PIA ke tayyaray mein", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 382, "text": "iska bonnet kin bnawat bht sahe hay", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 383, "text": "Kia log bewakuf hain unhne samaj nahi arhi k ye game logo ko sirf or sirf unko bewakuf banti hain kia logo me dimag name ki koi chiz nhi ", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 384, "text": "Katrina ki behanen un se choti aur un se bar hai jab ke aik bhai sab se bare hain", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 385, "text": "khuli ankhon se dhoka hai ye", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 386, "text": "Shershah amp Orangi Town Me Current Lagnay Se Afrad Janbahaq", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 387, "text": "Karkuno Ki Griftari Ka Tadam e Marg Bhok Hartal Karnay Ka Faisla Wada Kia Tha Jan Day Dunga Jhukunga Nahi Quaid MQM", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 388, "text": "humary ghar se minutes ki drive pe it's great", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 389, "text": "May bohat like karta ho ap ka channel", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 390, "text": "hamesha bharosa kar k cheezein mangwae hain. kabhi maska nhi hua", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 391, "text": "Tanvi Patil hahaha. It says ao logoun ko judge kartay hein.", "gold": "neutral", "raw": "positive", "pred": "positive"}
+{"idx": 392, "text": "yhan tou bs khosh krne ya phir hansane wali post lagti rahti h", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 393, "text": "Ye tarbiyati course aik saal mein mokammal kar laynay kay baad app nay Intermediate ki sanad li", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 394, "text": "Lahore Qalandars I Love your G", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 395, "text": "Great man sacha PakistaniBig man", "gold": "positive", "raw": "positive", "pred": "positive"}
+{"idx": 396, "text": "Karachi me toofan a hi nahi sakta", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 397, "text": " mein Mohibullah ne apne bare mein apne mamoon Hashim Khan ko do bare tournament ke final mein shikast di", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 398, "text": "Duniya khamosh Hai mage aek zaat Hai Jo opar baithi Ha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 399, "text": "Naa jeee baat to aisi he hai... Aisi na hoti to kehtay he kiun", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 400, "text": "bhot he zada acha lag raha ha ya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 401, "text": "Koi bhai is me invest na kry pashtao gay", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 402, "text": "Is product nay mujhay mayusi say nikal deya. Shukria masood, homeo online or daraz.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 403, "text": "sindh police mein achy loug bhi hain", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 404, "text": "Is silsile mein notification jari kar diya gaya hai", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 405, "text": "ye wala best hy", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 406, "text": "Ye kasy milga muhjy", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 407, "text": "Rakhshanda Ameen please convey my heartiest thanks ", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 408, "text": "Patience ka andaza is bat se laga lo ke eid ka suntay hi pait me sheetani choohe bi bedaar ho chukay hen.... Kal se phir woi shetaan or wohi hum", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 409, "text": "Unke upar na-hi koi tag/label tha", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 410, "text": "lekin phir bhi kaafi acha nahi hai. is saaray plastic se bara kaarobar hota hai or kafi ta'daad mein faidah hai", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 411, "text": " ki kursi chahye kitna  or  chahye hogi...!", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 412, "text": "kab ayega? and kitne ka ha?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 413, "text": "Mr. Fawad Change your White Elephants as soon as possiable other wise....", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 414, "text": "ps aik bar kafi tha:)", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 415, "text": "Very poor stuff, is se acha stuff aap local market se purchase kar saktay hain, isi price range mein", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 416, "text": "Magar maut ne mohlat na di aur December ko subha Newyork mein harkat-e-qalb band ho gai", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 417, "text": "service ki products se bilkul mutmaeen hon me", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 418, "text": "choohay teri kya auqaat hai kiraya daar jo molana par chu chu karta hai", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 419, "text": "Allah ham sab ko Qabbr ki Azaab se bachay.", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 420, "text": "Telugu mein unhon ne apni pheli film \"Malliswari\" ke leye lac moawza wasol kiya jo us dor mein south ki kisi bhi filmi heroin ke leye bohat bhari moawza tha", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 421, "text": " October baroz juma ko subha sawa baje Peshawar mein inteqal kar gaye marhom ki umar baras thi", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 422, "text": "Plz mery liye b dua kariyga Mera Allah mjhsy Razi hojayee or meri migfry kardy ammen", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 423, "text": "Saddar Or Aitraf Se Trafic Police Ne Road Per Khari Darjano Garian Utha Leen", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 424, "text": "Jinho ne inhe bowling ke kuch gur sikhae", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 425, "text": "Wahan sy b order ni hua", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 426, "text": "Ye saal Karachi ki purani history repeat kar raha hai.", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 427, "text": "sunsilk ny sab ko smile krwaya", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 428, "text": "civic phely achi thi", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 429, "text": "Tera b fitay. Kunjar", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 430, "text": "track ki sab sa behtareen gari", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 431, "text": "mjhay naya logo intehai pasnd aya hay", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 432, "text": "Mera bs chale to arsal.wale script me hr dialogue k bd Kinza k leay do char thaprou ka special package krwa dun", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 433, "text": "bhut acha shampoo ha", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 434, "text": "Ya code bata dyn green waly ka", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 435, "text": "bilkul maa baap sb kuch dy sakty hn swayy naseeb k", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 436, "text": "Mehakma Mosamiat Ne Chitral Me Glacier Phante Ka Imkaan Zahir Kr Diya", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 437, "text": "liquid lipstick kaha sy lo mei?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 438, "text": "Agar Justin Trudeau masjid ajae to Axha or koi Mandir Chla jae to bura", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 439, "text": "Eid Ul Fiter Per Bi Barishon Ka Imkan", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 440, "text": "aik baar phir, aap mujhe is khoubsurti se maarna chahtay hain", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 441, "text": "Cheap songs wala coke studio nai hota", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 442, "text": "bulk mei phone lena ha muje", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 443, "text": "zabardast service or dostana mahool", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 444, "text": "All her children need is \" itni achi shaarkain \"No educationNo healthNo justiceBass achi achi sharkain de do", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 445, "text": "yeh number check krna zara", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 446, "text": "Zero point k bad se bhi agy jayengy ka jawab", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 447, "text": "jaypur mei deliver hojaegi?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 448, "text": "mujhy bhi isi liye kaha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 449, "text": "Nahi hona chahye .Hmara Mulak Pakistan islam ki base pa marz e wujood ma aya tha .Ghair muslims ka koi Haq Nhi hai .", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 450, "text": "mai na paisa jor kr li ha meri pasnd ki dodge", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 451, "text": "all year beawafoq awam ko pura saal loot rahay ho", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 452, "text": "Inshallah hum dono kaamyaab rhen apne naik iraadon mein..tune tou shiad dhond liyaya abhi bhi talaash jaari", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 453, "text": "Flipper ko apna umdah hatyar qarar dete hain mein shadi hoi", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 454, "text": "ya sab sa zada upar agaya ha ab sa y", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 455, "text": "meri help krey", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 456, "text": " June ko ulma ke aik wafad se baat chet karte hoye Wazir e Azam Shaukat Aziz ne kha ke qanon ki hukumrani yaqini banana hukumat ki zimedari hai, masher se boraiyon ke khatme aur awam ko insaf ki fari aur sasti farhami ko yaqini banane ke leye hum kaam kar rahe hain", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 457, "text": "tery sth aisa e ha naw ", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 458, "text": "raat k bje bhi light jati ha?", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 459, "text": "Ye kon namoona hai red main? Rajhistan ka sindbad", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 460, "text": "bhot baqwas ha gari kharb kardi meri", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 461, "text": "chalo.. shoot b hojaye ga. ko ya ko Chalo birthday b ho jaye ge", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 462, "text": "Hum itny shouq se karty hain", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 463, "text": "Or hmyyy kya pata hamra is measly colour kon as hai", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 464, "text": "sale katam hojaegi bje", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 465, "text": "taxila city ma shell maujood hai?", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 466, "text": "bhot acha hei", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 467, "text": "He is a test player not a t20", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 468, "text": "dil or jalao baqi bnda aisa kr bhi le toh aisi post dekh k dheet ban jata ", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 469, "text": "meine loreal ki saari cheezein istemal ki hain bht acha tajurba raha hai mera", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 470, "text": "Haan Baki Sab Ka Zaiqa Bhi Aisa Hi Hai.", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 471, "text": "Ayub Khan marshal law ki taqat ke zariye politicians par pabandi aaiyd ki, to aap ne un pabandiyon ko alal aelan challenge kiya aur marshal law hukkam ke jaberana aehkamat ki khilaf warzi ki", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 472, "text": "libyan market mei iska distribution kesa ha", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 473, "text": "isay zada acha tariqa or koi bhe nahi hay", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 474, "text": "apne mulk ke mustaqbil ko roshan banane mein apna kirdar ada kiya", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 475, "text": "Aaj say takreeban sal pehle hua hai aesa", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 476, "text": "kya yeh wohi Imran Khan naahi jis ne kaha tha k katil ho agar jis ki saza mot hai", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 477, "text": " ka suit hai..pagal bna rhy hain..", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 478, "text": "Lahnat tery poray khandan par Haram k Harami", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 479, "text": "Lahore mai store to band ho chukey hian", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 480, "text": "Dilo Jan in pr qurban", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 481, "text": "Tuu bhii khaaabeeess hai ", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 482, "text": "Master of MUK MUKA", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 483, "text": "\"Dushman\" to film arts ka kuch Na bigar sakey lakin khud Waheed murad nay apnay sathyon ko naraz ker deya charon ki mushterka jaddo jahad se kamyab honey wali her film ka creadit Waheed Murad akeley lena", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 484, "text": "ye ly or fkr na kr hm hain", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 485, "text": "sab sa zada khob bnaya hay isay", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 486, "text": "shaaaaaaaaaaaaaaaaame on Punjab gOVT. & also Federal govt. PTI Zinda bad", "gold": "neutral", "raw": "negative", "pred": "negative"}
+{"idx": 487, "text": "Qurban jao", "gold": "positive", "raw": "neutral", "pred": "neutral"}
+{"idx": 488, "text": "ab kis ka patta tot gaya", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 489, "text": "mehnat karna farz dawlance walo par", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 490, "text": "Jaan chor.do is serial ki", "gold": "negative", "raw": "neutral", "pred": "neutral"}
+{"idx": 491, "text": "aplogose hum kuch Kapra kharidange", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 492, "text": "Maynay bari level kay tharki tag keaye pehelay", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 493, "text": "Bhai ye video char mahene purani h ah jihadi shaheed hua ta apne dost ka hath nhi chor rha ta", "gold": "negative", "raw": "negative", "pred": "negative"}
+{"idx": 494, "text": "helpline code btao", "gold": "neutral", "raw": "neutral", "pred": "neutral"}
+{"idx": 495, "text": "J. hamesha mere dil mei ha", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 496, "text": "Ya Allah.. Hamy in k azaaab se mehfoooz ferma", "gold": "positive", "raw": "negative", "pred": "negative"}
+{"idx": 497, "text": "isay zada bharosa kisigari pr nahi mjhay", "gold": "negative", "raw": "negative", "pred": "negative"}
