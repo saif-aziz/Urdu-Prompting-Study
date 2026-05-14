@@ -7,7 +7,6 @@
 **Models compared:**
 - `Qwen/Qwen2.5-0.5B-Instruct`
 - `Qwen/Qwen2.5-1.5B-Instruct`
-- `google/gemma-2-2b-it` (4-bit quantized)
 - `xlm-roberta-base` (fine-tuned supervised baseline)
 - Majority-class baseline
 
@@ -66,10 +65,3 @@ paper/
   references.bib
 ```
 
-## Notes for the paper
-
-The `results/main_results_table.tex` and `paper/figures/*` are auto-generated
-and referenced by `paper/main.tex`. After running experiments, just compile:
-```bash
-cd paper && pdflatex main.tex && bibtex main && pdflatex main.tex && pdflatex main.tex
-```
