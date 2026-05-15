@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Urdu Prompting Study — Slides</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#0d1117;overflow:hidden;height:100vh}
+
+/* ── slide container ── */
+.deck{width:100vw;height:100vh;position:relative}
+.slide{position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;
+       align-items:center;padding:48px 64px;text-align:center}
+.slide.active{display:flex}
+
+/* ── backgrounds ── */
+.bg-dark  {background:linear-gradient(135deg,#0d1117 0%,#161b22 100%)}
+.bg-blue  {background:linear-gradient(135deg,#0d2137 0%,#1a237e 100%)}
+.bg-indigo{background:linear-gradient(135deg,#1a0533 0%,#4a148c 100%)}
+.bg-teal  {background:linear-gradient(135deg,#003333 0%,#00695c 100%)}
+.bg-red   {background:linear-gradient(135deg,#1a0000 0%,#7f0000 100%)}
+.bg-green {background:linear-gradient(135deg,#001a00 0%,#1b5e20 100%)}
+.bg-slate {background:linear-gradient(135deg,#0a0a1a 0%,#263238 100%)}
+
+/* ── typography ── */
+.kicker{font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;
+        color:#5c6bc0;margin-bottom:12px;font-weight:600}
+h1{font-size:2.6rem;font-weight:800;color:#fff;line-height:1.15;margin-bottom:16px}
+h2{font-size:1.9rem;font-weight:700;color:#fff;line-height:1.2;margin-bottom:14px}
+h3{font-size:1.2rem;font-weight:600;color:#90caf9;margin-bottom:10px}
+p,li{font-size:1rem;color:#c9d1d9;line-height:1.7}
+.subtitle{font-size:1.15rem;color:#8b949e;margin-top:8px}
+.highlight{color:#ffd54f;font-weight:700}
+.accent{color:#80cbc4}
+.em{color:#ce93d8}
+
+/* ── pill / badge ── */
+.pill{display:inline-block;padding:4px 14px;border-radius:20px;font-size:.82rem;font-weight:700;margin:3px}
+.pill-blue  {background:#1a237e;color:#90caf9;border:1px solid #3949ab}
+.pill-purple{background:#4a148c;color:#ce93d8;border:1px solid #7b1fa2}
+.pill-green {background:#1b5e20;color:#a5d6a7;border:1px solid #2e7d32}
+.pill-yellow{background:#4a3000;color:#ffd54f;border:1px solid #f57f17}
+.pill-red   {background:#7f0000;color:#ef9a9a;border:1px solid #c62828}
+
+/* ── layout helpers ── */
+.cols{display:grid;gap:20px;width:100%}
+.cols-2{grid-template-columns:1fr 1fr}
+.cols-3{grid-template-columns:1fr 1fr 1fr}
+.cols-4{grid-template-columns:1fr 1fr 1fr 1fr}
+.card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);
+      border-radius:12px;padding:20px;text-align:left}
+.card-center{text-align:center}
+.card h3{margin-bottom:8px}
+
+/* ── stat big number ── */
+.stat{font-size:3rem;font-weight:800;line-height:1}
+.stat-label{font-size:.82rem;color:#8b949e;margin-top:4px}
+
+/* ── table ── */
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{background:rgba(255,255,255,.1);color:#90caf9;padding:8px 10px;text-align:left}
+td{padding:7px 10px;border-bottom:1px solid rgba(255,255,255,.06);color:#c9d1d9}
+.t-green{background:#1b5e20;color:#a5d6a7;font-weight:700;padding:2px 8px;border-radius:4px}
+.t-yellow{background:#4a3000;color:#ffd54f;font-weight:700;padding:2px 8px;border-radius:4px}
+.t-red{background:#7f0000;color:#ef9a9a;font-weight:700;padding:2px 8px;border-radius:4px}
+.t-best{border:2px solid #ffd54f}
+
+/* ── code block ── */
+pre{background:rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.1);border-radius:8px;
+    padding:14px;font-size:.82rem;color:#a8ff78;text-align:left;
+    white-space:pre-wrap;line-height:1.6;width:100%}
+
+/* ── bar chart ── */
+.bar-row{display:flex;align-items:center;margin:6px 0;font-size:.82rem}
+.bar-label{width:100px;color:#8b949e;text-align:right;padding-right:10px;flex-shrink:0}
+.bar-track{flex:1;background:rgba(255,255,255,.06);border-radius:4px;height:22px;overflow:hidden}
+.bar-fill{height:100%;border-radius:4px;display:flex;align-items:center;padding-left:8px;
+          font-weight:700;font-size:.78rem;transition:width .6s}
+.bar-neg {background:#e53935;color:#fff}
+.bar-neu {background:#1e88e5;color:#fff}
+.bar-pos {background:#43a047;color:#fff}
+.bar-unk {background:#757575;color:#fff}
+
+/* ── timeline / pipeline ── */
+.flow{display:flex;align-items:center;gap:8px;justify-content:center;flex-wrap:wrap}
+.flow-box{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+          border-radius:8px;padding:10px 16px;font-size:.82rem;color:#e3f2fd;font-weight:600}
+.flow-arrow{color:#5c6bc0;font-size:1.2rem}
+
+/* ── grid 3x2 ── */
+.grid-6{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%}
+
+/* ── nav ── */
+.nav{position:fixed;bottom:20px;right:24px;display:flex;gap:8px;z-index:100}
+.nav button{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);
+            color:#fff;width:36px;height:36px;border-radius:50%;cursor:pointer;
+            font-size:1rem;transition:.2s}
+.nav button:hover{background:rgba(255,255,255,.25)}
+.counter{position:fixed;bottom:26px;left:24px;font-size:.78rem;color:#484f58;z-index:100}
+
+/* ── progress bar ── */
+.progress{position:fixed;top:0;left:0;height:3px;background:#3949ab;
+          transition:width .3s;z-index:200}
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<div class="deck" id="deck">
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 1 — TITLE
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-blue active">
+  <div class="kicker">CS4063 NLP — Research Mini-Project</div>
+  <h1>Does Prompting Language Matter<br>for Urdu Sentiment Analysis?</h1>
+  <p class="subtitle">Comparing English vs. Urdu Prompts on Small Multilingual Language Models</p>
+  <div style="margin-top:32px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+    <span class="pill pill-blue">Qwen2.5-0.5B</span>
+    <span class="pill pill-blue">Qwen2.5-1.5B</span>
+    <span class="pill pill-purple">XLM-RoBERTa baseline</span>
+    <span class="pill pill-green">498 test examples</span>
+    <span class="pill pill-yellow">12 experiment cells</span>
+  </div>
+  <p style="margin-top:40px;font-size:.82rem;color:#484f58">
+    Use ← → arrow keys or buttons to navigate
+  </p>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 2 — MOTIVATION
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-dark">
+  <div class="kicker">Motivation</div>
+  <h2>A Practical Question Nobody Had Answered</h2>
+  <div class="cols cols-2" style="margin-top:28px;max-width:900px">
+    <div class="card">
+      <h3>The Reality</h3>
+      <p>Most NLP practitioners can't afford GPT-4. They use small open-source models
+         (0.5B – 2B) that fit on a free Colab GPU.</p>
+    </div>
+    <div class="card">
+      <h3>The Dilemma</h3>
+      <p>When building a <span class="highlight">Urdu application</span>, should the
+         prompt be in <span class="accent">Urdu</span> (matching the task) or
+         <span class="em">English</span> (matching the training data)?</p>
+    </div>
+    <div class="card">
+      <h3>The Gap</h3>
+      <p>Prior work (MEGA, ChatGPT Beyond English) only studied <span class="highlight">7B+</span>
+         models. The small-model regime for Urdu was untested.</p>
+    </div>
+    <div class="card">
+      <h3>Our Answer</h3>
+      <p>A controlled experiment: <span class="accent">6 prompt variants × 2 models</span>,
+         paired significance tests, automatic error bucketing.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 3 — RESEARCH QUESTION
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-indigo">
+  <div class="kicker">Research Question</div>
+  <h2 style="max-width:800px;font-size:1.7rem;font-style:italic;color:#e1bee7">
+    "Does prompting in Urdu or English yield better performance for
+    Urdu-native tasks on small multilingual language models, and does
+    the answer depend on the prompting regime?"
+  </h2>
+  <div class="cols cols-3" style="margin-top:36px;max-width:900px">
+    <div class="card card-center">
+      <div style="font-size:2rem">🎯</div>
+      <h3 style="margin-top:8px">Zero-shot</h3>
+      <p style="font-size:.85rem">Instruction only, no examples</p>
+    </div>
+    <div class="card card-center">
+      <div style="font-size:2rem">📚</div>
+      <h3 style="margin-top:8px">Few-shot</h3>
+      <p style="font-size:.85rem">3 class-balanced demonstrations</p>
+    </div>
+    <div class="card card-center">
+      <div style="font-size:2rem">🧠</div>
+      <h3 style="margin-top:8px">Chain-of-Thought</h3>
+      <p style="font-size:.85rem">Step-by-step reasoning first</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 4 — DATASET
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-slate">
+  <div class="kicker">Dataset</div>
+  <h2>Roman Urdu Sentiment Analysis</h2>
+  <p style="margin-bottom:24px;color:#8b949e">
+    ayeshasameer/roman-urdu-sentiment-analysis · HuggingFace · Loaded at runtime
+  </p>
+  <div class="cols cols-4" style="margin-bottom:24px;max-width:1000px">
+    <div class="card card-center">
+      <div class="stat" style="color:#90caf9">33,662</div>
+      <div class="stat-label">total examples</div>
+    </div>
+    <div class="card card-center">
+      <div class="stat" style="color:#a5d6a7">2,000</div>
+      <div class="stat-label">training examples</div>
+    </div>
+    <div class="card card-center">
+      <div class="stat" style="color:#ffd54f">498</div>
+      <div class="stat-label">test examples</div>
+    </div>
+    <div class="card card-center">
+      <div class="stat" style="color:#ce93d8">166</div>
+      <div class="stat-label">per class (balanced)</div>
+    </div>
+  </div>
+  <div class="cols cols-3" style="max-width:900px">
+    <div class="card card-center">
+      <span class="pill pill-red">Negative · 166</span>
+      <p style="margin-top:8px;font-size:.82rem">"bakwas machine ha"</p>
+    </div>
+    <div class="card card-center">
+      <span class="pill pill-blue">Neutral · 166</span>
+      <p style="margin-top:8px;font-size:.82rem">"Visit krty ha aj"</p>
+    </div>
+    <div class="card card-center">
+      <span class="pill pill-green">Positive · 166</span>
+      <p style="margin-top:8px;font-size:.82rem">"kitni khushi ki baat hai"</p>
+    </div>
+  </div>
+  <p style="margin-top:20px;font-size:.82rem;color:#484f58">
+    All inputs are Roman-Urdu (Latin script) — Urdu words written in English letters, as used on social media
+  </p>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 5 — MODELS
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-dark">
+  <div class="kicker">Models</div>
+  <h2>What We Tested</h2>
+  <div class="cols cols-3" style="margin-top:28px;max-width:1000px">
+    <div class="card card-center">
+      <div style="font-size:2.5rem">⚡</div>
+      <h3>Qwen2.5-0.5B-Instruct</h3>
+      <p style="font-size:.85rem">0.5B parameters<br>Multilingual instruct model<br>Greedy decoding</p>
+      <span class="pill pill-blue" style="margin-top:10px">Free T4 GPU</span>
+    </div>
+    <div class="card card-center">
+      <div style="font-size:2.5rem">🚀</div>
+      <h3>Qwen2.5-1.5B-Instruct</h3>
+      <p style="font-size:.85rem">1.5B parameters<br>Multilingual instruct model<br>Greedy decoding</p>
+      <span class="pill pill-blue" style="margin-top:10px">Free T4 GPU</span>
+    </div>
+    <div class="card card-center">
+      <div style="font-size:2.5rem">🎓</div>
+      <h3>XLM-RoBERTa-base</h3>
+      <p style="font-size:.85rem">Fine-tuned supervised baseline<br>3 epochs · lr=2e-5<br>2,000 training examples</p>
+      <span class="pill pill-purple" style="margin-top:10px">Comparison point</span>
+    </div>
+  </div>
+  <p style="margin-top:24px;font-size:.85rem;color:#8b949e">
+    + Majority-class baseline (always predicts most common class)
+  </p>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 6 — PROMPT GRID
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-blue">
+  <div class="kicker">Experiment Design</div>
+  <h2>6 Prompt Variants — the 3 × 2 Grid</h2>
+  <div class="grid-6" style="margin-top:24px;max-width:960px">
+    <div class="card" style="border-top:4px solid #1565c0">
+      <h3>zs_en</h3>
+      <p style="font-size:.82rem">Zero-shot<br><span class="accent">English instruction</span></p>
+      <pre style="margin-top:8px;font-size:.72rem">Classify sentiment.
+Answer: negative/neutral/positive
+
+Text: {input}
+Answer:</pre>
+    </div>
+    <div class="card" style="border-top:4px solid #6a1b9a">
+      <h3>zs_ur</h3>
+      <p style="font-size:.82rem">Zero-shot<br><span class="em">Urdu instruction</span></p>
+      <pre style="margin-top:8px;font-size:.72rem">جذبات کی درجہ بندی کریں۔
+جواب: منفی/غیر جانبدار/مثبت
+
+متن: {input}
+جواب:</pre>
+    </div>
+    <div class="card" style="border-top:4px solid #1565c0">
+      <h3>fs_en</h3>
+      <p style="font-size:.82rem">3-shot<br><span class="accent">English instruction</span></p>
+      <pre style="margin-top:8px;font-size:.72rem">Classify sentiment.
+
+Text: [example 1] → negative
+Text: [example 2] → neutral
+Text: [example 3] → positive
+
+Text: {input}
+Answer:</pre>
+    </div>
+    <div class="card" style="border-top:4px solid #6a1b9a">
+      <h3>fs_ur</h3>
+      <p style="font-size:.82rem">3-shot<br><span class="em">Urdu instruction</span></p>
+      <pre style="margin-top:8px;font-size:.72rem">جذبات کی درجہ بندی کریں۔
+
+متن: [مثال ۱] → منفی
+متن: [مثال ۲] → غیر جانبدار
+متن: [مثال ۳] → مثبت
+
+متن: {input}
+جواب:</pre>
+    </div>
+    <div class="card" style="border-top:4px solid #1565c0">
+      <h3>cot_en</h3>
+      <p style="font-size:.82rem">Chain-of-thought<br><span class="accent">English reasoning</span></p>
+      <pre style="margin-top:8px;font-size:.72rem">Reason step by step in English,
+then write 'Answer: &lt;label&gt;'
+
+Text: {input}
+Step 1: ...
+Step 2: ...
+Answer: positive</pre>
+    </div>
+    <div class="card" style="border-top:4px solid #6a1b9a">
+      <h3>cot_ur</h3>
+      <p style="font-size:.82rem">Chain-of-thought<br><span class="em">Urdu reasoning</span></p>
+      <pre style="margin-top:8px;font-size:.72rem">قدم بہ قدم اردو میں سوچیں،
+پھر 'جواب: &lt;لیبل&gt;' لکھیں
+
+متن: {input}
+← model breaks down here</pre>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 7 — PIPELINE
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-slate">
+  <div class="kicker">Implementation</div>
+  <h2>Pipeline Architecture</h2>
+  <div class="flow" style="margin-top:32px;max-width:1000px">
+    <div class="flow-box">configs/default.yaml<br><span style="font-size:.72rem;color:#8b949e">all settings</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">src/data.py<br><span style="font-size:.72rem;color:#8b949e">HuggingFace load<br>stratified split</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">src/prompts.py<br><span style="font-size:.72rem;color:#8b949e">build 6 templates<br>parse output</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">src/inference.py<br><span style="font-size:.72rem;color:#8b949e">batched generate<br>greedy decode</span></div>
+  </div>
+  <div class="flow" style="margin-top:12px;max-width:1000px">
+    <div class="flow-box">src/metrics.py<br><span style="font-size:.72rem;color:#8b949e">F1 · accuracy<br>McNemar test</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">src/error_analysis.py<br><span style="font-size:.72rem;color:#8b949e">linguistic buckets<br>confusion pairs</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">results/<br><span style="font-size:.72rem;color:#8b949e">metrics.csv<br>predictions/*.jsonl</span></div>
+  </div>
+ 
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 8 — MAIN RESULTS TABLE
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-dark">
+  <div class="kicker">Results</div>
+  <h2>Main Results — All 12 Cells</h2>
+  <div style="max-width:900px;width:100%;margin-top:20px">
+    <table>
+      <tr>
+        <th>Model</th><th>Prompt</th><th>Accuracy</th><th>Macro-F1</th><th>Unknown %</th>
+      </tr>
+      <tr><td style="color:#484f58">Majority baseline</td><td>—</td><td>0.333</td><td><span class="t-red">0.167</span></td><td>0%</td></tr>
+      <tr><td style="color:#484f58">XLM-RoBERTa (fine-tuned)</td><td>—</td><td>0.394</td><td><span class="t-yellow">0.306</span></td><td>0%</td></tr>
+      <tr><td>Qwen 0.5B</td><td>zs_en</td><td>0.408</td><td><span class="t-yellow">0.349</span></td><td>0%</td></tr>
+      <tr><td>Qwen 0.5B</td><td>zs_ur</td><td>0.333</td><td><span class="t-red">0.167</span></td><td>0%</td></tr>
+      <tr><td>Qwen 0.5B</td><td>fs_en</td><td>0.351</td><td><span class="t-yellow">0.207</span></td><td>0%</td></tr>
+      <tr><td>Qwen 0.5B</td><td>fs_ur</td><td>0.333</td><td><span class="t-red">0.167</span></td><td>0%</td></tr>
+      <tr><td>Qwen 0.5B</td><td>cot_en</td><td>0.388</td><td><span class="t-yellow">0.364</span></td><td style="color:#ef9a9a">9.4%</td></tr>
+      <tr><td>Qwen 0.5B</td><td>cot_ur</td><td>0.333</td><td><span class="t-yellow">0.249</span></td><td style="color:#ef9a9a">23.1%</td></tr>
+      <tr><td>Qwen 1.5B</td><td>zs_en</td><td>0.398</td><td><span class="t-yellow">0.289</span></td><td>0%</td></tr>
+      <tr><td>Qwen 1.5B</td><td>zs_ur</td><td>0.339</td><td><span class="t-yellow">0.183</span></td><td>0%</td></tr>
+      <tr class="t-best"><td><b>Qwen 1.5B</b></td><td><b>fs_en ⭐</b></td><td><b>0.552</b></td><td><span class="t-green">0.526</span></td><td>0%</td></tr>
+      <tr><td>Qwen 1.5B</td><td>fs_ur</td><td>0.357</td><td><span class="t-yellow">0.289</span></td><td>0%</td></tr>
+      <tr><td>Qwen 1.5B</td><td>cot_en</td><td>0.426</td><td><span class="t-yellow">0.427</span></td><td style="color:#ef9a9a">22.3%</td></tr>
+      <tr><td>Qwen 1.5B</td><td>cot_ur</td><td>0.335</td><td><span class="t-red">0.173</span></td><td>0%</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 9 — KEY FINDING 1: EN BEATS UR
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-teal">
+  <div class="kicker">Key Finding 1</div>
+  <h2>English Prompts Win — Every Single Time</h2>
+  <div class="cols cols-2" style="margin-top:28px;max-width:900px">
+    <div class="card">
+      <h3>EN vs UR gaps (Macro-F1 Δ)</h3>
+      <div class="bar-row"><span class="bar-label">0.5B zs</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:55%">+0.182</div></div></div>
+      <div class="bar-row"><span class="bar-label">0.5B fs</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:12%">+0.040</div></div></div>
+      <div class="bar-row"><span class="bar-label">0.5B cot</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:35%">+0.115</div></div></div>
+      <div class="bar-row"><span class="bar-label">1.5B zs</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:32%">+0.106</div></div></div>
+      <div class="bar-row"><span class="bar-label">1.5B fs</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:72%"><b>+0.237</b></div></div></div>
+      <div class="bar-row"><span class="bar-label">1.5B cot</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:78%">+0.254</div></div></div>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom:14px">
+        <h3>Significant pairs</h3>
+        <p style="font-size:.88rem"><span class="highlight">4 out of 6</span> McNemar tests reach
+           p &lt; 0.05. All 4 favour English. The remaining 2 are non-significant because
+           <em>both</em> conditions fail badly.</p>
+      </div>
+      <div class="card">
+        <h3>Surprising result</h3>
+        <p style="font-size:.88rem">Qwen 1.5B few-shot English
+           (<span class="highlight">F1 = 0.526</span>) beats fine-tuned
+           XLM-RoBERTa (<span class="accent">F1 = 0.306</span>) — zero training labels needed.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 10 — KEY FINDING 2: LABEL COLLAPSE
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-red">
+  <div class="kicker">Key Finding 2</div>
+  <h2>Urdu Prompts Cause Label Collapse</h2>
+  <p style="margin-bottom:24px;color:#ef9a9a">The model outputs the same label for EVERY example</p>
+  <div class="cols cols-2" style="max-width:900px">
+    <div class="card">
+      <h3 style="color:#ef9a9a">Qwen 0.5B — zs_ur (Urdu)</h3>
+      <div class="bar-row"><span class="bar-label">negative</span>
+        <div class="bar-track"><div class="bar-fill bar-neg" style="width:100%"><b>498 (100%)</b></div></div></div>
+      <div class="bar-row"><span class="bar-label">neutral</span>
+        <div class="bar-track"><div class="bar-fill bar-neu" style="width:0%">0</div></div></div>
+      <div class="bar-row"><span class="bar-label">positive</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:0%">0</div></div></div>
+      <p style="margin-top:10px;font-size:.8rem;color:#ef9a9a">Every prediction is منفی (negative)</p>
+    </div>
+    <div class="card">
+      <h3 style="color:#90caf9">Qwen 0.5B — zs_en (English)</h3>
+      <div class="bar-row"><span class="bar-label">negative</span>
+        <div class="bar-track"><div class="bar-fill bar-neg" style="width:62%">61%</div></div></div>
+      <div class="bar-row"><span class="bar-label">neutral</span>
+        <div class="bar-track"><div class="bar-fill bar-neu" style="width:30%">28%</div></div></div>
+      <div class="bar-row"><span class="bar-label">positive</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:10%">11%</div></div></div>
+      <p style="margin-top:10px;font-size:.8rem;color:#90caf9">Errors spread across all classes</p>
+    </div>
+    <div class="card">
+      <h3 style="color:#ef9a9a">Qwen 1.5B — cot_ur (Urdu CoT)</h3>
+      <div class="bar-row"><span class="bar-label">positive</span>
+        <div class="bar-track"><div class="bar-fill bar-pos" style="width:100%"><b>331 (66%)</b></div></div></div>
+      <div class="bar-row"><span class="bar-label">negative</span>
+        <div class="bar-track"><div class="bar-fill bar-neg" style="width:25%">~25%</div></div></div>
+      <div class="bar-row"><span class="bar-label">neutral</span>
+        <div class="bar-track"><div class="bar-fill bar-neu" style="width:9%">~9%</div></div></div>
+      <p style="margin-top:10px;font-size:.8rem;color:#ef9a9a">Collapses to positive — opposite extreme</p>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;justify-content:center">
+      <h3>Why this happens</h3>
+      <p style="font-size:.85rem;margin-top:8px">The model understands the <em>task structure</em>
+         (output a label) but can't hold the <em>three-class boundary</em> in memory when
+         the instruction is in Urdu. It falls back on a label prior.</p>
+      <p style="font-size:.85rem;margin-top:8px">Unknown rate = 0% → it's not refusing.
+         It's collapsing.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 11 — KEY FINDING 3: COT
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-slate">
+  <div class="kicker">Key Finding 3</div>
+  <h2>Chain-of-Thought: English Reasons, Urdu Breaks</h2>
+  <div class="cols cols-2" style="margin-top:24px;max-width:960px">
+    <div>
+      <h3 style="text-align:left;margin-bottom:8px;color:#90caf9">Qwen 1.5B cot_en — actual output</h3>
+      <pre>Step 1: Analyze key words.
+- "bakwas" = informal derogatory term
+- "machine ha" = suggests failure/frustration
+
+Step 2: Overall tone.
+The phrase implies strong dissatisfaction.
+
+Step 3: Determine sentiment.
+→ negative
+
+Answer: negative  ✓</pre>
+    </div>
+    <div>
+      <h3 style="text-align:left;margin-bottom:8px;color:#ef9a9a">Qwen 0.5B cot_ur — actual output</h3>
+      <pre>Pakistan کا جنگ رود آسیا کے لیے مزید میں
+سوچیں، پھر نئی سطر پر لکھیں 'جواب: منفی'۔
+Pakistan کا جنگ رود آسیا کے لیے مزید میں
+سوچیں، پھر نئی سطر پر لکھیں 'جواب: غیر
+جانبدار'...
+
+← echoing the prompt template back,
+   no actual reasoning happening</pre>
+    </div>
+  </div>
+  <div class="cols cols-3" style="margin-top:20px;max-width:900px">
+    <div class="card card-center">
+      <div class="stat" style="color:#ef9a9a;font-size:2rem">23.1%</div>
+      <div class="stat-label">Qwen 0.5B cot_ur refusal rate</div>
+    </div>
+    <div class="card card-center">
+      <div class="stat" style="color:#ffd54f;font-size:2rem">9.4%</div>
+      <div class="stat-label">Qwen 0.5B cot_en refusal rate</div>
+    </div>
+    <div class="card card-center">
+      <div class="stat" style="color:#a5d6a7;font-size:2rem">0%</div>
+      <div class="stat-label">zs/fs refusal rate (both languages)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 12 — SIGNIFICANCE
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-dark">
+  <div class="kicker">Statistical Significance</div>
+  <h2>Paired McNemar Tests</h2>
+  <div style="max-width:800px;width:100%;margin-top:24px">
+    <table>
+      <tr><th>Model</th><th>Regime</th><th>b (EN✓ UR✗)</th><th>c (UR✓ EN✗)</th><th>p-value</th><th>Result</th></tr>
+      <tr><td>Qwen 0.5B</td><td>zero-shot</td><td><b>82</b></td><td>45</td><td>0.001</td><td><span class="t-green">* English better</span></td></tr>
+      <tr><td>Qwen 0.5B</td><td>few-shot</td><td>173</td><td>164</td><td>0.663</td><td><span class="t-red">n.s. (both fail)</span></td></tr>
+      <tr><td>Qwen 0.5B</td><td>CoT</td><td><b>85</b></td><td>41</td><td>&lt;0.001</td><td><span class="t-green">*** English better</span></td></tr>
+      <tr><td>Qwen 1.5B</td><td>zero-shot</td><td><b>32</b></td><td>3</td><td>4.2×10⁻⁷</td><td><span class="t-green">*** English better</span></td></tr>
+      <tr><td>Qwen 1.5B</td><td>few-shot</td><td><b>190</b></td><td>93</td><td>8.3×10⁻⁹</td><td><span class="t-green">*** English better</span></td></tr>
+      <tr><td>Qwen 1.5B</td><td>CoT</td><td>112</td><td>99</td><td>0.409</td><td><span class="t-red">n.s. (both broken)</span></td></tr>
+    </table>
+  </div>
+  <p style="margin-top:20px;font-size:.88rem;color:#8b949e;max-width:700px">
+    b = number of examples where English was correct and Urdu was wrong.
+    c = the reverse. McNemar tests whether this asymmetry is statistically real.
+  </p>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 13 — ERROR ANALYSIS
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-indigo">
+  <div class="kicker">Error Analysis</div>
+  <h2>Where Both Languages Struggle</h2>
+  <div class="cols cols-3" style="margin-top:24px;max-width:1000px">
+    <div class="card">
+      <h3>Negation (n=54)</h3>
+      <p style="font-size:.82rem;margin-bottom:10px">Surface negator misleads the model</p>
+      <div style="background:rgba(0,0,0,.3);padding:10px;border-radius:6px;font-size:.78rem">
+        <p>"<span class="highlight">koi sawal nahi</span> playstation bhot acha tha"</p>
+        <p style="color:#8b949e;margin:4px 0">(no question, PlayStation was great)</p>
+        <p>Gold: <span class="t-green" style="font-size:.75rem">positive</span>
+           &nbsp;EN: <span class="t-red" style="font-size:.75rem">negative</span>
+           &nbsp;UR: <span class="t-red" style="font-size:.75rem">negative</span></p>
+      </div>
+      <p style="margin-top:8px;font-size:.78rem;color:#8b949e">
+        1.5B fs gap: <span class="highlight">50% EN vs 77.8% UR</span> error rate
+      </p>
+    </div>
+    <div class="card">
+      <h3>Short inputs (n=117)</h3>
+      <p style="font-size:.82rem;margin-bottom:10px">Little context to decide sentiment</p>
+      <div style="background:rgba(0,0,0,.3);padding:10px;border-radius:6px;font-size:.78rem">
+        <p>"<span class="highlight">kitni khushi ki baat hai</span>"</p>
+        <p style="color:#8b949e;margin:4px 0">(what a joyous thing)</p>
+        <p>Gold: <span class="t-green" style="font-size:.75rem">positive</span>
+           &nbsp;EN: <span class="t-yellow" style="font-size:.75rem">neutral</span>
+           &nbsp;UR: <span class="t-red" style="font-size:.75rem">negative</span></p>
+      </div>
+      <p style="margin-top:8px;font-size:.78rem;color:#8b949e">
+        0.5B zs gap: <span class="highlight">58% EN vs 79.5% UR</span> error rate
+      </p>
+    </div>
+    <div class="card">
+      <h3>Instruction refusal (CoT)</h3>
+      <p style="font-size:.82rem;margin-bottom:10px">Output unparseable to any label</p>
+      <div style="background:rgba(0,0,0,.3);padding:10px;border-radius:6px;font-size:.78rem">
+        <p>"<span class="highlight">Un ka phela boy friend baras ki umar mein bana tha</span>"</p>
+        <p style="color:#8b949e;margin:4px 0">(his first boyfriend was made at age...)</p>
+        <p>EN: <span class="t-yellow" style="font-size:.75rem">unknown</span>
+           &nbsp;UR: <span class="t-red" style="font-size:.75rem">unknown</span></p>
+      </div>
+      <p style="margin-top:8px;font-size:.78rem;color:#8b949e">
+        0.5B cot: <span class="highlight">9.4% EN vs 23.1% UR</span> refusal rate
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 14 — DISCUSSION
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-slate">
+  <div class="kicker">Discussion</div>
+  <h2>Why English Wins — Two Mechanisms</h2>
+  <div class="cols cols-2" style="margin-top:28px;max-width:900px">
+    <div class="card">
+      <h3>① Semantic instruction quality</h3>
+      <p style="font-size:.88rem;margin-top:8px">At zero-shot and few-shot level,
+         <span class="highlight">unknown rate = 0% for both</span> languages.
+         The model isn't refusing Urdu — it's collapsing labels. This means the failure
+         is about <em>understanding the class boundaries</em>, not following the instruction
+         format. The model grasps "negative/neutral/positive" better in English.</p>
+    </div>
+    <div class="card">
+      <h3>② Instruction-following failure (CoT)</h3>
+      <p style="font-size:.88rem;margin-top:8px">At chain-of-thought level, Urdu
+         adds a second failure mode: the model <em>can't reason in Urdu</em>.
+         It echoes the prompt back or produces garbage, raising refusals to
+         <span class="highlight">23.1%</span>. English CoT at least produces
+         structured reasoning even when the final label is wrong.</p>
+    </div>
+    <div class="card">
+      <h3>③ Model size doesn't close the gap</h3>
+      <p style="font-size:.88rem;margin-top:8px">The 1.5B model widens the EN–UR
+         gap at few-shot (<span class="highlight">Δ=0.237</span> vs
+         <span class="accent">Δ=0.040</span> for 0.5B). Larger models exploit
+         English demonstrations better — they don't get better at Urdu instructions.</p>
+    </div>
+    <div class="card">
+      <h3>④ Prompting beats fine-tuning here</h3>
+      <p style="font-size:.88rem;margin-top:8px">Best prompted cell (0.526) beats
+         fine-tuned XLM-RoBERTa (0.306). <span class="highlight">Caveat:</span>
+         our baseline used only 3 epochs, no hyperparameter search. A properly
+         tuned fine-tuned model would likely recover.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     SLIDE 15 — CONCLUSION
+══════════════════════════════════════════════════════════ -->
+<div class="slide bg-green">
+  <div class="kicker">Conclusion</div>
+  <h2>The Answer Is Clear</h2>
+  <div style="max-width:800px;margin-top:28px">
+    <div class="card" style="margin-bottom:16px;border-left:4px solid #ffd54f">
+      <h3>Main finding</h3>
+      <p>English prompts consistently outperform Urdu prompts across both models
+         and all three regimes. <span class="highlight">4 of 6 McNemar tests are
+         significant</span>, all in English's favour. The largest gap is
+         Qwen 1.5B few-shot: <span class="highlight">0.526 EN vs 0.289 UR</span>.</p>
+    </div>
+    <div class="card" style="margin-bottom:16px;border-left:4px solid #80cbc4">
+      <h3>Root cause</h3>
+      <p>Label collapse under Urdu zero-shot/few-shot (predicts one class for everything)
+         and elevated refusals under Urdu CoT (23.1%). Sub-2B models process Urdu
+         system turns unreliably.</p>
+    </div>
+    <div class="card" style="border-left:4px solid #a5d6a7">
+      <h3>Practical recommendation</h3>
+      <p><span class="highlight">Use English instruction prompts with Roman-Urdu input text</span>
+         for small instruct LMs — until models in this range receive substantially more
+         Urdu instruction-tuning data.</p>
+    </div>
+  </div>
+  <p style="margin-top:28px;font-size:.88rem;color:#8b949e">
+    Future work: Nastaliq-script inputs · 7B+ models · parameter-efficient fine-tuning · XLT hybrid prompts
+  </p>
+</div>
+
+</div><!-- /deck -->
+
+<!-- nav buttons -->
+<div class="nav">
+  <button onclick="go(-1)">←</button>
+  <button onclick="go(1)">→</button>
+</div>
+<div class="counter" id="counter"></div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let cur = 0;
+
+function go(dir){
+  slides[cur].classList.remove('active');
+  cur = (cur + dir + slides.length) % slides.length;
+  slides[cur].classList.add('active');
+  document.getElementById('counter').textContent = (cur+1) + ' / ' + slides.length;
+  document.getElementById('progress').style.width = ((cur+1)/slides.length*100)+'%';
+}
+
+document.addEventListener('keydown', e => {
+  if(e.key==='ArrowRight'||e.key==='ArrowDown') go(1);
+  if(e.key==='ArrowLeft'||e.key==='ArrowUp')  go(-1);
+});
+
+// init
+document.getElementById('counter').textContent = '1 / ' + slides.length;
+document.getElementById('progress').style.width = (1/slides.length*100)+'%';
+</script>
+</body>
+</html>
